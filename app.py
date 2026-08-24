@@ -9,7 +9,27 @@ st.image("biblioteca.jpg", use_container_width=True)
 
 st.title("📚 biblioteca porfirio barba jacob")
 st.write("Busca por título, autor o género. Los libros y sus detalles aparecerán al instante.")
+import base64
 
+def poner_imagen_fondo(ruta_imagen):
+    with open(ruta_imagen, "rb") as archivo:
+        datos_imagen = archivo.read()
+    imagen_base64 = base64.b64encode(datos_imagen).decode()
+    estilo_css = f"""
+    <style>
+    [data-testid="stAppViewContainer"] {{
+        background-image: url("data:image/jpg;base64,{imagen_base64}");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }}
+    </style>
+    """
+    st.markdown(estilo_css, unsafe_allow_html=True)
+
+# Activamos el fondo llamando al archivo que guardaste
+poner_imagen_fondo("fondo_figuras.jpg")
 # --- 2. BASE DE DATOS DINÁMICA (Guarda cambios en memoria) ---
 if "libros_db" not in st.session_state:
     st.session_state.libros_db = [
