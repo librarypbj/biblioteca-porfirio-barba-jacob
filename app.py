@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-
+import base64
 # --- 1. CONFIGURACIÓN DE LA INTERFAZ ---
 st.set_page_config(page_title="Buscador de Biblioteca", page_icon="📚", layout="centered")
 
@@ -9,7 +9,7 @@ st.image("biblioteca.jpg", use_container_width=True)
 
 st.title("📚 biblioteca porfirio barba jacob")
 st.write("Busca por título, autor o género. Los libros y sus detalles aparecerán al instante.")
-import base64
+
 
 def poner_imagen_fondo(ruta_imagen):
     with open(ruta_imagen, "rb") as archivo:
@@ -29,7 +29,7 @@ def poner_imagen_fondo(ruta_imagen):
     st.markdown(estilo_css, unsafe_allow_html=True)
 
 # Activamos el fondo llamando al archivo que guardaste
-poner_imagen_fondo("fondo_figuras.jpg")
+poner_imagen_fondo("fondo.jpg")
 # --- 2. BASE DE DATOS DINÁMICA (Guarda cambios en memoria) ---
 if "libros_db" not in st.session_state:
     st.session_state.libros_db = [
