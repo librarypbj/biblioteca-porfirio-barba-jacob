@@ -29,7 +29,7 @@ def poner_imagen_fondo(ruta_imagen):
     st.markdown(estilo_css, unsafe_allow_html=True)
 
 # Activamos el fondo llamando al archivo que guardaste
-poner_imagen_fondo("fondo.jpg")
+poner_imagen_fondo("fondo.jpeg")
 # --- 2. BASE DE DATOS DINÁMICA (Guarda cambios en memoria) ---
 if "libros_db" not in st.session_state:
     st.session_state.libros_db = [
