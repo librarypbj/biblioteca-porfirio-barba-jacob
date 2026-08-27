@@ -1,7 +1,7 @@
 [theme]
-primaryColor = "#cf2424"         # Color dorado para botones y detalles
+primaryColor = "#b30808"         # Color dorado para botones y detalles
 backgroundColor = "#c8b3c9e1"      # Fondo oscuro elegante (puedes cambiarlo a un tono claro si prefieres)
-secondaryBackgroundColor = "#e7e2e7f8" # Fondo de las cajas de búsqueda
-textColor = "#0e09099a"            # Letras de color blanco hueso muy legibles
+secondaryBackgroundColor = "#0e010ef8" # Fondo de las cajas de búsqueda
+textColor = "#0c07079a"            # Letras de color blanco hueso muy legibles
 font = "sans serif"                 # Tipo de letra elegante estilo libro
 
