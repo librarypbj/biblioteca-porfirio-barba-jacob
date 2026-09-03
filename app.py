@@ -69,7 +69,7 @@ else:
 # Desplegar libros encontrados
 if resultados:
     for libro in resultados:
-        col_info, col_foto = st.columns()
+        col_info, col_foto = st.columns(2)
         
         with col_info:
             st.subheader(f"📖 {libro['titulo']}")
