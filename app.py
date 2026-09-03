@@ -1,40 +1,16 @@
 import streamlit as st
 import os
-import base64
 
 # --- 1. CONFIGURACIÓN DE LA INTERFAZ ---
 st.set_page_config(page_title="Buscador de Biblioteca", page_icon="📚", layout="centered")
 
-# TRUCO PARA PONER IMAGEN DE FONDO CON FIGURAS
-def poner_imagen_fondo(ruta_imagen):
-    if os.path.exists(ruta_imagen):
-        with open(ruta_imagen, "rb") as archivo:
-            datos_imagen = archivo.read()
-        imagen_base64 = base64.b64encode(datos_imagen).decode()
-        estilo_css = f"""
-        <style>
-        [data-testid="stAppViewContainer"] {{
-            background-image: url("data:image/jpeg;base64,{imagen_base64}");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }}
-        </style>
-        """
-        st.markdown(estilo_css, unsafe_allow_html=True)
-
-# Activamos tu fondo de burbujas pastel
-
-
-# Imagen de encabezado
+# Imagen de encabezado real sin parámetros conflictivos
 st.image("biblioteca porfirio barba jacob.jpg")
 
-
-st.title("📚 biblioteca porfirio barba jacob")
+st.title("📚 Descubre la luz del conocimiento")
 st.write("Busca por título, autor o género. Los libros y sus detalles aparecerán al instante.")
 
-# --- 2. BASE DE DATOS DINÁMICA (Guarda cambios en memoria) ---
+# --- 2. BASE DE DATOS DINÁMICA ---
 if "libros_db" not in st.session_state:
     st.session_state.libros_db = [
         {
@@ -93,16 +69,16 @@ else:
 # Desplegar libros encontrados
 if resultados:
     for libro in resultados:
-        col_info, col_foto = st.columns([2, 1])
+        col_info, col_foto = st.columns()
         
         with col_info:
             st.subheader(f"📖 {libro['titulo']}")
             st.write(f"**Autor:** {libro['autor']}")
             st.write(f"**Género:** *{libro['genero']}*")
             
-            # Código del libro estilizado con diseño para máxima legibilidad
-            st.markdown(f"**Código:** <span style='color: #1E1E24; background-color: rgba(255,255,255,0.85); padding: 3px 8px; border-radius: 4px; font-weight: bold; font-family: sans-serif;'>{libro['codigo'].upper()}</span>", unsafe_allow_html=True)
-            st.write("") # Espacio corto
+            # Código del libro simple y ultra legible
+            st.write(f"**Código:** `{libro['codigo'].upper()}`")
+            st.write("")
             
             if libro["disponible_fisico"]:
                 st.success("✅ Disponible en formato físico.")
