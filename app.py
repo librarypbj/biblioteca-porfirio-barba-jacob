@@ -25,7 +25,7 @@ def poner_imagen_fondo(ruta_imagen):
         st.markdown(estilo_css, unsafe_allow_html=True)
 
 # Activamos tu fondo de burbujas pastel
-poner_imagen_fondo("fondo.jpeg")
+
 
 # Imagen de encabezado
 st.image("descubre el conocimiento.jpg",)
