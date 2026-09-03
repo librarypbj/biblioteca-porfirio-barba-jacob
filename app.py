@@ -96,7 +96,7 @@ if resultados:
             st.subheader(f"📖 {libro['titulo']}")
             st.write(f"**Autor:** {libro['autor']}")
             st.write(f"**Género:** *{libro['genero']}*")
-            st.write(f"**Código:** <span style='color: #1E1E24; background-color: rgba(255,255,255,0.8); padding: 2px 6px; border-radius: 4px; font-weight: bold; font-family: sans-serif;'>{libro['codigo'].upper()}</span>", unsafe_allow_html=True)
+            st.write(f"**Código: <span style='color: #1E1E24; background-color: rgba(255,255,255,0.8); padding: 2px 6px; border-radius: 4px; font-weight: bold; font-family: sans-serif;'>{libro['codigo'].upper()}</span>", unsafe_allow_html=True)
 
             
             if libro["disponible_fisico"]:
