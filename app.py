@@ -28,7 +28,7 @@ def poner_imagen_fondo(ruta_imagen):
 
 
 # Imagen de encabezado
-st.image("descubre el conocimiento.jpg",)
+st.image("biblioteca porfirio barba jacob.jpg",)
 
 
 st.title("📚 biblioteca porfirio barba jacob")
