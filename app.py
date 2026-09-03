@@ -5,7 +5,7 @@ import os
 st.set_page_config(page_title="Buscador de Biblioteca", page_icon="📚", layout="centered")
 
 # Imagen de encabezado real sin parámetros conflictivos
-st.image("biblioteca porfirio barba jacob.jpg")
+# st.image("biblioteca porfirio barba jacob.jpg")
 
 st.title("📚 Descubre la luz del conocimiento")
 st.write("Busca por título, autor o género. Los libros y sus detalles aparecerán al instante.")
