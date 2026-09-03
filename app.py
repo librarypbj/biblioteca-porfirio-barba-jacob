@@ -5,7 +5,7 @@ import os
 st.set_page_config(page_title="Buscador de Biblioteca", page_icon="📚", layout="centered")
 
 
-st.title("📚 Descubre la luz del conocimiento")
+st.title("📚 biblioteca porfirio barba jacob")
 st.write("Busca por título, autor o género. Los libros y sus detalles aparecerán al instante.")
 
 # --- 2. BASE DE DATOS DINÁMICA ---
