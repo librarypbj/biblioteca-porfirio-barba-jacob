@@ -28,9 +28,10 @@ def poner_imagen_fondo(ruta_imagen):
 poner_imagen_fondo("fondo.jpeg")
 
 # Imagen de encabezado
-st.image("descubre el conocimiento.jpg", use_container_width=True)
+st.image("descubre el conocimiento.jpg", use_column_width=True)
 
-st.title("📚 Descubre la luz del conocimiento")
+
+st.title("📚 biblioteca porfirio barba jacob")
 st.write("Busca por título, autor o género. Los libros y sus detalles aparecerán al instante.")
 
 # --- 2. BASE DE DATOS DINÁMICA (Guarda cambios en memoria) ---
