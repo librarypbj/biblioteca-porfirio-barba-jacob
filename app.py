@@ -34,7 +34,7 @@ poner_imagen_fondo("fondo.jpeg")
 if "libros_db" not in st.session_state:
     st.session_state.libros_db = [
         {
-            "codigo": "a101",
+            "codigo": "863.64",
             "titulo": "Cien años de soledad", 
             "autor": "Gabriel García Márquez", 
             "genero": "Realismo Mágico",
@@ -43,7 +43,7 @@ if "libros_db" not in st.session_state:
             "imagen_portada": "a101.jpg"
         },
         {
-            "codigo": "a102",
+            "codigo": "823.912",
             "titulo": "1984", 
             "autor": "George Orwell", 
             "genero": "Ciencia Ficción / Distopía",
@@ -52,7 +52,7 @@ if "libros_db" not in st.session_state:
             "imagen_portada": "a102.jpg"
         },
         {
-            "codigo": "a103",
+            "codigo": "823.912",
             "titulo": "El Hobbit", 
             "autor": "J.R.R. Tolkien", 
             "genero": "Fantasía",
