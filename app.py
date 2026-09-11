@@ -120,7 +120,8 @@ with st.expander("🔐 Panel de Administración (Oculto)"):
             nuevo_autor = st.text_input("Autor:")
             nuevo_genero = st.text_input("Género:")
             dispo_fisico = st.checkbox("¿Está disponible físicamente en los estantes?", value=True)
-            
+            dispo_pdf = st.checkbox("¿Está disponible en formato digital (PDF)?", value=False)
+
             boton_guardar = st.form_submit_button("Guardar libro en el sistema")
             
             if boton_guardar:
@@ -131,6 +132,8 @@ with st.expander("🔐 Panel de Administración (Oculto)"):
                         "autor": nuevo_autor,
                         "genero": nuevo_genero,
                         "disponible_fisico": dispo_fisico,
+                        "disponible_pdf": dispo_pdf,
+
                         "archivo_interno": f"{nuevo_codigo.lower()}.pdf",
                         "imagen_portada": f"{nuevo_codigo.lower()}.jpg"
                     }
