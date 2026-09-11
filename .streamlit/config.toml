@@ -2,6 +2,6 @@
 primaryColor = "#b30808"         # Color dorado para botones y detalles
 backgroundColor = "#e2dabe"      # Fondo oscuro elegante (puedes cambiarlo a un tono claro si prefieres)
 secondaryBackgroundColor = "#e9e3dbf8" # Fondo de las cajas de búsqueda
-textColor = "#720303ec"            # Letras de color blanco hueso muy legibles
+textColor = "#6b0404ec"            # Letras de color blanco hueso muy legibles
 font = "sans serif"                 # Tipo de letra elegante estilo libro
 
