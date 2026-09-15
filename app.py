@@ -16,7 +16,7 @@ if "libros_db" not in st.session_state:
             "titulo": "Cien años de soledad", 
             "autor": "Gabriel García Márquez", 
             "genero": "Realismo Mágico",
-            "disponible_fisico": True,
+            "disponible_fisico": False,
             "archivo_interno": "a101.pdf",
             "imagen_portada": "a101.jpg"
         },
