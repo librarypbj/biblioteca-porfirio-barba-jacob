@@ -137,7 +137,8 @@ with st.sidebar:
                 nuevo_autor = st.text_input("Autor:")
                 nuevo_genero = st.text_input("Género:")
                 dispo_fisico = st.checkbox("¿Disponible físico?", value=False)
-                
+                dispo_pdf = st.checkbox("¿Está disponible en formato digital (PDF)?", value=False)
+
                 boton_guardar = st.form_submit_button("Guardar libro")
                 
                 if boton_guardar:
@@ -148,6 +149,8 @@ with st.sidebar:
                             "autor": nuevo_autor,
                             "genero": nuevo_genero,
                             "disponible_fisico": dispo_fisico,
+                            "disponible_pdf": dispo_pdf,
+
                             "archivo_interno": f"{nuevo_codigo.lower()}.pdf",
                             "imagen_portada": f"{nuevo_codigo.lower()}.jpg"
                         }
