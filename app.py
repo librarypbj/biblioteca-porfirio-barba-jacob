@@ -61,7 +61,7 @@ with st.sidebar:
 
 # --- 4. CUERPO PRINCIPAL DE LA PÁGINA ---
 st.title("📚 Descubre el Conocimiento")
-st.image("biblioteca.jpg", use_container_width=True)
+
 
 st.write("Usa el menú de la izquierda para seleccionar un género y empezar tu búsqueda.")
 st.markdown("---")
