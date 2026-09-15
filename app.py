@@ -60,7 +60,7 @@ with st.sidebar:
         ).strip()
 
 # --- 4. CUERPO PRINCIPAL DE LA PÁGINA ---
-st.title("📚 Biblioteca Virtual")
+st.title("📚 Biblioteca porfirio barba jacob")
 st.write("Usa el menú de la izquierda para seleccionar un género y empezar tu búsqueda.")
 st.markdown("---")
 
