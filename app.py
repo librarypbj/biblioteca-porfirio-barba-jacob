@@ -34,7 +34,7 @@ if "libros_db" not in st.session_state:
             "titulo": "El Hobbit", 
             "autor": "J.R.R. Tolkien", 
             "genero": "Fantasía",
-            "disponible_fisico": False,
+            "disponible_fisico": True,
             "archivo_interno": "a103.pdf",
             "imagen_portada": "a103.jpg"
         }
