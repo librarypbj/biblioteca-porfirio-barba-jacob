@@ -8,7 +8,7 @@ st.set_page_config(page_title="Buscador de Biblioteca", page_icon="📚", layout
 if "libros_db" not in st.session_state:
     st.session_state.libros_db = [
         {
-            "codigo": "a101",
+            "codigo": "rm101",
             "titulo": "Cien años de soledad", 
             "autor": "Gabriel García Márquez", 
             "genero": "Realismo Mágico",
@@ -17,7 +17,7 @@ if "libros_db" not in st.session_state:
             "imagen_portada": "a101.jpg"
         },
         {
-            "codigo": "a102",
+            "codigo": "cf102",
             "titulo": "1984", 
             "autor": "George Orwell", 
             "genero": "Ciencia Ficción / Distopía",
@@ -26,7 +26,7 @@ if "libros_db" not in st.session_state:
             "imagen_portada": "a102.jpg"
         },
         {
-            "codigo": "a103",
+            "codigo": "f103",
             "titulo": "El Hobbit", 
             "autor": "J.R.R. Tolkien", 
             "genero": "Fantasía",
