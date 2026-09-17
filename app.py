@@ -13,14 +13,14 @@ if "libros_db" not in st.session_state:
             "autor": "Edgar Allan Poe", 
             "genero": "Misterio",
             "disponible_fisico": True,
-            "url_portada": "https://ssl-images-amazon.com"
+            
         },
         {
             "codigo": "rm102",
             "titulo": "Cien años de soledad", 
             "autor": "Gabriel García Márquez", 
             "genero": "Realismo Mágico",
-            "disponible_fisico": False  # Digital
+            "disponible_fisico": False  
         },
         {
             "codigo": "e105",
@@ -28,7 +28,7 @@ if "libros_db" not in st.session_state:
             "autor": "Ricardo Gómez", 
             "genero": "Educativo",
             "disponible_fisico": True,
-            "url_portada": "https://media-amazon.com"
+            
         },
         {
             "codigo": "h106",
@@ -36,7 +36,7 @@ if "libros_db" not in st.session_state:
             "autor": "José Ignacio Claros V.", 
             "genero": "Historia",
             "disponible_fisico": True,
-            "url_portada": "https://media-amazon.com"
+            
         },
         {
             "codigo": "i107",
@@ -44,7 +44,7 @@ if "libros_db" not in st.session_state:
             "autor": "Equipo Editorial", 
             "genero": "Infantil",
             "disponible_fisico": True,
-            "url_portada": "https://media-amazon.com"
+            
         }
     ]
 
@@ -101,9 +101,11 @@ else:
             else:
                 st.info("💻 Disponible solo en formato digital. Solicítalo en la administración.")
             
-            # Muestra la portada digital segura si existe en la base de datos
-            if "url_portada" in libro:
-                st.image(libro["url_portada"], width=150)
+                       # Buscar y mostrar la portada guardada en tu carpeta de archivos
+            nombre_imagen = f"{libro['codigo'].lower()}.jpg"
+            if os.path.exists(nombre_imagen):
+                st.image(nombre_imagen, width=150)
+
                 
             st.markdown("---")
     else:
