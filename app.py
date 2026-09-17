@@ -1,4 +1,6 @@
 import streamlit as st
+import os
+
 
 # --- 1. CONFIGURACIÓN DE LA INTERFAZ ---
 st.set_page_config(page_title="Buscador de Biblioteca", page_icon="📚", layout="wide")
