@@ -8,49 +8,49 @@ st.set_page_config(page_title="Buscador de Biblioteca", page_icon="📚", layout
 if "libros_db" not in st.session_state:
     st.session_state.libros_db = [
         {
-            "codigo": "M101",
+            "codigo": "m104",
             "titulo": "La Carta Robada y Otros Cuentos", 
             "autor": "Edgar Allan Poe", 
             "genero": "Misterio",
             "disponible_fisico": True,
-            "archivo_interno": "M101.pdf",
-            "imagen_portada": "M101.jpg"
+            "archivo_interno": "m104.pdf",
+            "imagen_portada": "m104.jpg"
         },
         {
-            "codigo": "RM102",
+            "codigo": "rm101",
             "titulo": "Cien años de soledad", 
             "autor": "Gabriel García Márquez", 
             "genero": "Realismo Mágico",
             "disponible_fisico": False,  # Digital
-            "archivo_interno": "RM102.pdf",
-            "imagen_portada": "RM102.jpg"
+            "archivo_interno": "a101.pdf",
+            "imagen_portada": "a101.jpg"
         },
         {
-            "codigo": "E105",
+            "codigo": "e105",
             "titulo": "La selva de los números", 
             "autor": "Ricardo Gómez", 
             "genero": "Educativo",
             "disponible_fisico": True,
-            "archivo_interno": "E105.pdf",
-            "imagen_portada": "E105.jpg"
+            "archivo_interno": "e105.pdf",
+            "imagen_portada": "e105.jpg"
         },
         {
-            "codigo": "H106",
+            "codigo": "h106",
             "titulo": "La Cali que yo conocí", 
             "autor": "José Ignacio Claros V.", 
             "genero": "Historia",
             "disponible_fisico": True,
-            "archivo_interno": "H106.pdf",
-            "imagen_portada": "H106.jpg"
+            "archivo_interno": "h106.pdf",
+            "imagen_portada": "h106.jpg"
         },
         {
-            "codigo": "I107",
+            "codigo": "i107",
             "titulo": "El Nuevo Mundo de los Niños: Grandes Exploradores", 
             "autor": "Equipo Editorial", 
             "genero": "Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "I107.pdf",
-            "imagen_portada": "I107.jpg"
+            "archivo_interno": "i107.pdf",
+            "imagen_portada": "i107.jpg"
         }
     ]
 
@@ -142,7 +142,7 @@ with st.sidebar:
         if password == "1234":
             st.success("Acceso concedido:")
             with st.form("nuevo_libro_form", clear_on_submit=True):
-                nuevo_codigo = st.text_input("Código (ej: E108):")
+                nuevo_codigo = st.text_input("Código (ej: e108):")
                 nuevo_titulo = st.text_input("Título del Libro:")
                 nuevo_autor = st.text_input("Autor:")
                 nuevo_genero = st.text_input("Género:")
@@ -153,13 +153,13 @@ with st.sidebar:
                 if boton_guardar:
                     if nuevo_codigo and nuevo_titulo and nuevo_autor and nuevo_genero:
                         nuevo_libro = {
-                            "codigo": nuevo_codigo.upper(),
+                            "codigo": nuevo_codigo.lower(),
                             "titulo": nuevo_titulo,
                             "autor": nuevo_autor,
                             "genero": nuevo_genero,
                             "disponible_fisico": dispo_fisico,
-                            "archivo_interno": f"{nuevo_codigo.upper()}.pdf",
-                            "imagen_portada": f"{nuevo_codigo.upper()}.jpg"
+                            "archivo_interno": f"{nuevo_codigo.lower()}.pdf",
+                            "imagen_portada": f"{nuevo_codigo.lower()}.jpg"
                         }
                         st.session_state.libros_db.append(nuevo_libro)
                         st.success(f"🎉 ¡El libro '{nuevo_titulo}' ha sido registrado!")
