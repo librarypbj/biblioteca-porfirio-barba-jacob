@@ -35,6 +35,13 @@ if "libros_db" not in st.session_state:
             "imagen_portada": "a103.jpg"
         }
     ]
+    {
+            "codigo": "m104",
+            "titulo": "La Carta Robada y Otros Cuentos", 
+            "autor": "Edgar Allan Poe", 
+            "genero": "Misterio",
+            "disponible_fisico": True
+        },
 
 # --- 3. BARRA LATERAL IZQUIERDA (Sidebar para Géneros y Búsqueda) ---
 with st.sidebar:
