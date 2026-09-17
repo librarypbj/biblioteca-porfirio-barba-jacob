@@ -92,9 +92,12 @@ else:
             if libro["disponible_fisico"]:
                 st.success("✅ Disponible en formato físico en los estantes.")
             else:
-                st.info("💻 Disponible solo en formato digital. Solicítalo en la administración.")
-            
+             st.info("💻 Disponible solo en formato digital. Solicítalo en la administración.")
+            nombre_imagen = f"{libro['codigo'].lower()}.jpg"
+            if os.path.exists(nombre_imagen):
+                st.image(nombre_imagen, width=150)
             st.markdown("---")
+
     else:
         st.warning(f"❌ No encontramos ningún libro que coincida con '{busqueda}' en este género.")
 
