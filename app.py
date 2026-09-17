@@ -1,11 +1,10 @@
 import streamlit as st
 import os
 
-
 # --- 1. CONFIGURACIÓN DE LA INTERFAZ ---
 st.set_page_config(page_title="Buscador de Biblioteca", page_icon="📚", layout="wide")
 
-# --- 2. BASE DE DATOS DINÁMICA (Solo Libros Físicos y Digital) ---
+# --- 2. BASE DE DATOS DINÁMICA FIJA (Tus libros reales de Asodisvalle) ---
 if "libros_db" not in st.session_state:
     st.session_state.libros_db = [
         {
@@ -13,28 +12,39 @@ if "libros_db" not in st.session_state:
             "titulo": "La Carta Robada y Otros Cuentos", 
             "autor": "Edgar Allan Poe", 
             "genero": "Misterio",
-            "disponible_fisico": True
+            "disponible_fisico": True,
+            "url_portada": "https://ssl-images-amazon.com"
         },
         {
             "codigo": "rm102",
             "titulo": "Cien años de soledad", 
             "autor": "Gabriel García Márquez", 
             "genero": "Realismo Mágico",
-            "disponible_fisico": False  # Falso porque es exclusivo digital
+            "disponible_fisico": False  # Digital
         },
         {
-            "codigo": "cf103",
-            "titulo": "1984", 
-            "autor": "George Orwell", 
-            "genero": "Ciencia Ficción / Distopía",
-            "disponible_fisico": True
+            "codigo": "e105",
+            "titulo": "La selva de los números", 
+            "autor": "Ricardo Gómez", 
+            "genero": "Educativo",
+            "disponible_fisico": True,
+            "url_portada": "https://media-amazon.com"
         },
         {
-            "codigo": "f104",
-            "titulo": "El Hobbit", 
-            "autor": "J.R.R. Tolkien", 
-            "genero": "Fantasía",
-            "disponible_fisico": True
+            "codigo": "h106",
+            "titulo": "La Cali que yo conocí", 
+            "autor": "José Ignacio Claros V.", 
+            "genero": "Historia",
+            "disponible_fisico": True,
+            "url_portada": "https://media-amazon.com"
+        },
+        {
+            "codigo": "i107",
+            "titulo": "El Nuevo Mundo de los Niños: Grandes Exploradores", 
+            "autor": "Equipo Editorial", 
+            "genero": "Infantil",
+            "disponible_fisico": True,
+            "url_portada": "https://media-amazon.com"
         }
     ]
 
@@ -42,7 +52,6 @@ if "libros_db" not in st.session_state:
 with st.sidebar:
     st.header("🗂️ Navegación")
     
-    # Lista dinámica de géneros
     generos_disponibles = sorted(list(set(libro["genero"] for libro in st.session_state.libros_db)))
     opciones_genero = ["Selecciona un género..."] + generos_disponibles
     
@@ -66,10 +75,8 @@ st.markdown("---")
 if genero_seleccionado == "Selecciona un género...":
     st.info("💡 Por favor, selecciona un género en la barra lateral izquierda para explorar los libros disponibles.")
 else:
-    # Filtramos por género
     libros_filtrados = [l for l in st.session_state.libros_db if l["genero"] == genero_seleccionado]
     
-    # Filtramos por barra de búsqueda
     if busqueda:
         resultados = []
         for libro in libros_filtrados:
@@ -86,20 +93,19 @@ else:
         for libro in resultados:
             st.subheader(f"📖 {libro['titulo']}")
             st.write(f"**Autor:** {libro['autor']}")
-            
-            # Código del libro estilizado en azul rey elegante
             st.markdown(f"**Código:** <span style='color: #1E3A8A; font-weight: bold; font-family: monospace; font-size: 16px;'>{libro['codigo'].upper()}</span>", unsafe_allow_html=True)
             st.write("")
             
             if libro["disponible_fisico"]:
                 st.success("✅ Disponible en formato físico en los estantes.")
             else:
-             st.info("💻 Disponible solo en formato digital. Solicítalo en la administración.")
-            nombre_imagen = f"{libro['codigo'].lower()}.jpg"
-            if os.path.exists(nombre_imagen):
-                st.image(nombre_imagen, width=150)
+                st.info("💻 Disponible solo en formato digital. Solicítalo en la administración.")
+            
+            # Muestra la portada digital segura si existe en la base de datos
+            if "url_portada" in libro:
+                st.image(libro["url_portada"], width=150)
+                
             st.markdown("---")
-
     else:
         st.warning(f"❌ No encontramos ningún libro que coincida con '{busqueda}' en este género.")
 
@@ -112,7 +118,7 @@ with st.sidebar:
         if password == "1234":
             st.success("Acceso concedido:")
             with st.form("nuevo_libro_form", clear_on_submit=True):
-                nuevo_codigo = st.text_input("Código (ej: e105):")
+                nuevo_codigo = st.text_input("Código (ej: e108):")
                 nuevo_titulo = st.text_input("Título del Libro:")
                 nuevo_autor = st.text_input("Autor:")
                 nuevo_genero = st.text_input("Género:")
