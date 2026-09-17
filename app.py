@@ -4,7 +4,7 @@ import os
 # --- 1. CONFIGURACIÓN DE LA INTERFAZ ---
 st.set_page_config(page_title="Buscador de Biblioteca", page_icon="📚", layout="wide")
 
-# --- 2. BASE DE DATOS DINÁMICA FIJA (Tus libros reales de Asodisvalle) ---
+# --- 2. BASE DE DATOS DINÁMICA FIJA (Tus libros reales con JPG y PDF locales) ---
 if "libros_db" not in st.session_state:
     st.session_state.libros_db = [
         {
@@ -12,35 +12,45 @@ if "libros_db" not in st.session_state:
             "titulo": "La Carta Robada y Otros Cuentos", 
             "autor": "Edgar Allan Poe", 
             "genero": "Misterio",
-            "disponible_fisico": True
+            "disponible_fisico": True,
+            "archivo_interno": "M101.pdf",
+            "imagen_portada": "M101.jpg"
         },
         {
             "codigo": "RM102",
             "titulo": "Cien años de soledad", 
             "autor": "Gabriel García Márquez", 
             "genero": "Realismo Mágico",
-            "disponible_fisico": False  # Digital
+            "disponible_fisico": False,  # Digital
+            "archivo_interno": "RM102.pdf",
+            "imagen_portada": "RM102.jpg"
         },
         {
             "codigo": "E105",
             "titulo": "La selva de los números", 
             "autor": "Ricardo Gómez", 
             "genero": "Educativo",
-            "disponible_fisico": True
+            "disponible_fisico": True,
+            "archivo_interno": "E105.pdf",
+            "imagen_portada": "E105.jpg"
         },
         {
             "codigo": "H106",
             "titulo": "La Cali que yo conocí", 
             "autor": "José Ignacio Claros V.", 
             "genero": "Historia",
-            "disponible_fisico": True
+            "disponible_fisico": True,
+            "archivo_interno": "H106.pdf",
+            "imagen_portada": "H106.jpg"
         },
         {
             "codigo": "I107",
             "titulo": "El Nuevo Mundo de los Niños: Grandes Exploradores", 
             "autor": "Equipo Editorial", 
             "genero": "Infantil",
-            "disponible_fisico": True
+            "disponible_fisico": True,
+            "archivo_interno": "I107.pdf",
+            "imagen_portada": "I107.jpg"
         }
     ]
 
@@ -92,17 +102,32 @@ else:
             st.markdown(f"**Código:** <span style='color: #1E3A8A; font-weight: bold; font-family: monospace; font-size: 16px;'>{libro['codigo'].upper()}</span>", unsafe_allow_html=True)
             st.write("")
             
+            # Gestión de Disponibilidad Física
             if libro["disponible_fisico"]:
                 st.success("✅ Disponible en formato físico en los estantes.")
             else:
-                st.info("💻 Disponible solo en formato digital. Solicítalo en la administración.")
+                st.warning("⚠️ No disponible en formato físico.")
             
-            # --- LECTOR SEGURO DE IMÁGENES LOCALES JPG ---
-            nombre_imagen = f"{libro['codigo']}.jpg"
-            if os.path.exists(nombre_imagen):
-                with open(nombre_imagen, "rb") as f:
-                    bytes_imagen = f.read()
-                st.image(bytes_imagen, width=150)
+            # BOTÓN AZUL DE DESCARGA DIRECTA DE PDF SI EXISTE EL ARCHIVO
+            if "archivo_interno" in libro:
+                nombre_pdf = libro["archivo_interno"]
+                if os.path.exists(nombre_pdf):
+                    with open(nombre_pdf, "rb") as archivo_pdf:
+                        st.download_button(
+                            label="⬇️ Descargar PDF Directo",
+                            data=archivo_pdf.read(),
+                            file_name=f"{libro['titulo']}.pdf",
+                            mime="application/pdf",
+                            key=f"btn_{libro['codigo']}"
+                        )
+            
+            # MOSTRAR PORTADA LOCAL .JPG DE FORMA BINARIA ULTRA SEGURA
+            if "imagen_portada" in libro:
+                nombre_img = libro["imagen_portada"]
+                if os.path.exists(nombre_img):
+                    with open(nombre_img, "rb") as f_img:
+                        bytes_img = f_img.read()
+                    st.image(bytes_img, width=150)
                 
             st.markdown("---")
     else:
@@ -132,7 +157,9 @@ with st.sidebar:
                             "titulo": nuevo_titulo,
                             "autor": nuevo_autor,
                             "genero": nuevo_genero,
-                            "disponible_fisico": dispo_fisico
+                            "disponible_fisico": dispo_fisico,
+                            "archivo_interno": f"{nuevo_codigo.upper()}.pdf",
+                            "imagen_portada": f"{nuevo_codigo.upper()}.jpg"
                         }
                         st.session_state.libros_db.append(nuevo_libro)
                         st.success(f"🎉 ¡El libro '{nuevo_titulo}' ha sido registrado!")
