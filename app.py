@@ -8,43 +8,39 @@ st.set_page_config(page_title="Buscador de Biblioteca", page_icon="📚", layout
 if "libros_db" not in st.session_state:
     st.session_state.libros_db = [
         {
-            "codigo": "m101",
+            "codigo": "M101",
             "titulo": "La Carta Robada y Otros Cuentos", 
             "autor": "Edgar Allan Poe", 
             "genero": "Misterio",
-            "disponible_fisico": True,
-            
+            "disponible_fisico": True
         },
         {
-            "codigo": "rm102",
+            "codigo": "RM102",
             "titulo": "Cien años de soledad", 
             "autor": "Gabriel García Márquez", 
             "genero": "Realismo Mágico",
-            "disponible_fisico": False  
+            "disponible_fisico": False  # Digital
         },
         {
-            "codigo": "e105",
+            "codigo": "E105",
             "titulo": "La selva de los números", 
             "autor": "Ricardo Gómez", 
             "genero": "Educativo",
-            "disponible_fisico": True,
-            
+            "disponible_fisico": True
         },
         {
-            "codigo": "h106",
+            "codigo": "H106",
             "titulo": "La Cali que yo conocí", 
             "autor": "José Ignacio Claros V.", 
             "genero": "Historia",
-            "disponible_fisico": True,
-            
+            "disponible_fisico": True
         },
         {
-            "codigo": "i107",
+            "codigo": "I107",
             "titulo": "El Nuevo Mundo de los Niños: Grandes Exploradores", 
             "autor": "Equipo Editorial", 
             "genero": "Infantil",
-            "disponible_fisico": True,
-            
+            "disponible_fisico": True
         }
     ]
 
@@ -101,11 +97,12 @@ else:
             else:
                 st.info("💻 Disponible solo en formato digital. Solicítalo en la administración.")
             
-                       # Buscar y mostrar la portada guardada en tu carpeta de archivos
+            # --- LECTOR SEGURO DE IMÁGENES LOCALES JPG ---
             nombre_imagen = f"{libro['codigo']}.jpg"
             if os.path.exists(nombre_imagen):
-                st.image(nombre_imagen, width=150)
-
+                with open(nombre_imagen, "rb") as f:
+                    bytes_imagen = f.read()
+                st.image(bytes_imagen, width=150)
                 
             st.markdown("---")
     else:
@@ -120,7 +117,7 @@ with st.sidebar:
         if password == "1234":
             st.success("Acceso concedido:")
             with st.form("nuevo_libro_form", clear_on_submit=True):
-                nuevo_codigo = st.text_input("Código (ej: e108):")
+                nuevo_codigo = st.text_input("Código (ej: E108):")
                 nuevo_titulo = st.text_input("Título del Libro:")
                 nuevo_autor = st.text_input("Autor:")
                 nuevo_genero = st.text_input("Género:")
@@ -131,7 +128,7 @@ with st.sidebar:
                 if boton_guardar:
                     if nuevo_codigo and nuevo_titulo and nuevo_autor and nuevo_genero:
                         nuevo_libro = {
-                            "codigo": nuevo_codigo.lower(),
+                            "codigo": nuevo_codigo.upper(),
                             "titulo": nuevo_titulo,
                             "autor": nuevo_autor,
                             "genero": nuevo_genero,
