@@ -102,7 +102,7 @@ else:
                 st.info("💻 Disponible solo en formato digital. Solicítalo en la administración.")
             
                        # Buscar y mostrar la portada guardada en tu carpeta de archivos
-            nombre_imagen = f"{libro['codigo'].lower()}.jpg"
+            nombre_imagen = f"{libro['codigo']}.jpg"
             if os.path.exists(nombre_imagen):
                 st.image(nombre_imagen, width=150)
 
