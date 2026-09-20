@@ -191,12 +191,11 @@ else:
             if imagen:
                 st.image(imagen[0], width=150)
             else:
-                st.caption("🖼️ Portada no disponible (archivo de imagen inválido o ausente).")
-
-            st.markdown("---")
-    else:
-        st.warning(f"❌ No encontramos ningún libro que coincida con '{busqueda}' en este género.")
-
+                ruta_img = ruta_local(libro.get("imagen_portada", ""))
+                if not os.path.exists(ruta_img):
+                    st.caption(f"🖼️ No se encontró el archivo {libro.get('imagen_portada', '')} en el servidor.")
+                else:
+                    st.caption(f"🖼️ {libro['imagen_portada']} existe ({os.path.getsize(ruta_img)} bytes) pero no es una imagen válida.")
 # --- 7. PANEL DE ADMINISTRACIÓN OCULTO ---
 with st.sidebar:
     st.markdown("##")
