@@ -159,8 +159,8 @@ else:
         for libro in resultados:
             imagen = cargar_imagen_segura(libro.get("imagen_portada", ""))
 
-            # Título en MAYÚSCULA, con la portada al pasar el puntero
-            st.markdown(titulo_con_hover(libro["titulo"].upper(), imagen), unsafe_allow_html=True)
+            st.subheader(f"📖 {libro['titulo'].upper()}")
+            
             st.write(f"**Autor:** {libro['autor']}")
             st.markdown(
                 f"**Código:** <span style='color: #1E3A8A; font-weight: bold; font-family: monospace; font-size: 16px;'>{libro['codigo'].upper()}</span>",
