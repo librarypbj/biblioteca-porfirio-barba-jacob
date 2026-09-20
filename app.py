@@ -82,27 +82,22 @@ if "libros_db" not in st.session_state:
     ]
    
 # --- FUNCIONES AUXILIARES ---
-def ruta_local(nombre):
-    """Convierte un nombre de archivo en ruta absoluta dentro de la carpeta del proyecto."""
-    return os.path.join(BASE_DIR, nombre)
 def buscar_archivo(nombre_archivo):
-    """Busca el archivo aunque tenga doble extensión (m104.jpg.jpg),
+    """Busca el archivo aunque tenga doble extensión (d109.jpg.jpeg, m104.jpg.jpg),
     cambie mayúsculas/minúsculas, e ignora archivos vacíos (0 bytes)."""
     if not nombre_archivo:
         return None
-    extension = os.path.splitext(nombre_archivo)[1]
-    posibles = {nombre_archivo.lower(), (nombre_archivo + extension).lower()}
+    buscado = nombre_archivo.lower()
     try:
         for f in os.listdir(BASE_DIR):
-            if f.lower() in posibles:
+            if f.lower().startswith(buscado):
                 ruta = os.path.join(BASE_DIR, f)
                 if os.path.isfile(ruta) and os.path.getsize(ruta) > 0:
                     return ruta
     except Exception:
         pass
     return None
-
-
+   
 
 def cargar_imagen_segura(nombre_archivo):
     """Devuelve (bytes, formato) si la imagen es válida; si no, None."""
@@ -217,8 +212,8 @@ else:
 
             # BOTÓN DE DESCARGA DIRECTA DE PDF LOCAL
             nombre_pdf = libro.get("archivo_interno", "")
-            ruta_pdf = ruta_local(nombre_pdf)
-            if nombre_pdf and os.path.exists(ruta_pdf):
+            ruta_pdf = buscar_archivo(nombre_pdf)
+            if ruta_pdf:
                 with open(ruta_pdf, "rb") as archivo_pdf:
                     st.download_button(
                         label="⬇️ Descargar PDF Directo",
@@ -232,11 +227,11 @@ else:
             if imagen:
                 st.image(imagen[0], width=150)
             else:
-                ruta_img = ruta_local(libro.get("imagen_portada", ""))
-                if not os.path.exists(ruta_img):
-                    st.caption(f"🖼️ No se encontró el archivo {libro.get('imagen_portada', '')} en el servidor.")
-                else:
-                    st.caption(f"🖼️ {libro['imagen_portada']} existe ({os.path.getsize(ruta_img)} bytes) pero no es una imagen válida.")
+               st.caption(f"🖼️ Portada no disponible ({libro.get('imagen_portada', '')} no encontrada, vacía o inválida).")
+               
+            st.markdown("---")
+    else:
+        st.warning(f"❌ No encontramos ningún libro que coincida con '{busqueda}' en este género.")
 # --- 7. PANEL DE ADMINISTRACIÓN OCULTO ---
 with st.sidebar:
     st.markdown("##")
