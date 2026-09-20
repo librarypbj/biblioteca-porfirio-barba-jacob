@@ -75,7 +75,7 @@ if "libros_db" not in st.session_state:
             "titulo": "Atlas de la Biologia",
             "autor": "Andres Haro Vera",
             "genero": "Didactico",
-            "disponible_fisico": False,
+            "disponible_fisico": True,
             "archivo_interno": "d109.pdf",
             "imagen_portada": "d109.jpg"
         }
