@@ -66,12 +66,29 @@ if "libros_db" not in st.session_state:
 def ruta_local(nombre):
     """Convierte un nombre de archivo en ruta absoluta dentro de la carpeta del proyecto."""
     return os.path.join(BASE_DIR, nombre)
+def buscar_archivo(nombre_archivo):
+    """Busca el archivo aunque tenga doble extensión (m104.jpg.jpg),
+    cambie mayúsculas/minúsculas, e ignora archivos vacíos (0 bytes)."""
+    if not nombre_archivo:
+        return None
+    extension = os.path.splitext(nombre_archivo)[1]
+    posibles = {nombre_archivo.lower(), (nombre_archivo + extension).lower()}
+    try:
+        for f in os.listdir(BASE_DIR):
+            if f.lower() in posibles:
+                ruta = os.path.join(BASE_DIR, f)
+                if os.path.isfile(ruta) and os.path.getsize(ruta) > 0:
+                    return ruta
+    except Exception:
+        pass
+    return None
+
 
 
 def cargar_imagen_segura(nombre_archivo):
     """Devuelve (bytes, formato) si la imagen es válida; si no, None."""
-    ruta = ruta_local(nombre_archivo)
-    if not nombre_archivo or not os.path.exists(ruta):
+    ruta = buscar_archivo(nombre_archivo)
+    if ruta is None:
         return None
     try:
         with open(ruta, "rb") as f:
@@ -173,6 +190,11 @@ else:
                 st.success("✅ Disponible en formato físico en los estantes.")
             else:
                 st.warning("⚠️ No disponible en formato físico.")
+             # Disponibilidad en PDF
+            if buscar_archivo(libro.get("archivo_interno", "")):
+                st.info("📄 Disponible en formato PDF.")
+            else:
+                st.warning("📄 PDF no disponible por el momento.")
 
             # BOTÓN DE DESCARGA DIRECTA DE PDF LOCAL
             nombre_pdf = libro.get("archivo_interno", "")
