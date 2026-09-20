@@ -1,16 +1,23 @@
 import streamlit as st
 import os
+import io
+import html
+import base64
+from PIL import Image
 
 # --- 1. CONFIGURACIÓN DE LA INTERFAZ ---
 st.set_page_config(page_title="Buscador de Biblioteca", page_icon="📚", layout="wide")
 
-# --- 2. BASE DE DATOS DINÁMICA FIJA (Tus libros reales con JPG y PDF locales) ---
+# Carpeta donde está este archivo (así encuentra los PDF y JPG sin importar desde dónde se ejecute)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# --- 2. BASE DE DATOS DINÁMICA FIJA (Exclusivo con tus archivos JPG y PDF locales) ---
 if "libros_db" not in st.session_state:
     st.session_state.libros_db = [
         {
             "codigo": "m104",
-            "titulo": "La Carta Robada y Otros Cuentos", 
-            "autor": "Edgar Allan Poe", 
+            "titulo": "La Carta Robada y Otros Cuentos",
+            "autor": "Edgar Allan Poe",
             "genero": "Misterio",
             "disponible_fisico": True,
             "archivo_interno": "m104.pdf",
@@ -18,17 +25,17 @@ if "libros_db" not in st.session_state:
         },
         {
             "codigo": "rm101",
-            "titulo": "Cien años de soledad", 
-            "autor": "Gabriel García Márquez", 
+            "titulo": "Cien años de soledad",
+            "autor": "Gabriel García Márquez",
             "genero": "Realismo Mágico",
             "disponible_fisico": False,  # Digital
-            "archivo_interno": "a101.pdf",
-            "imagen_portada": "a101.jpg"
+            "archivo_interno": "rm101.pdf",   # antes decía a101.pdf
+            "imagen_portada": "rm101.jpg"    # antes decía a101.jpg
         },
         {
             "codigo": "e105",
-            "titulo": "La selva de los números", 
-            "autor": "Ricardo Gómez", 
+            "titulo": "La selva de los números",
+            "autor": "Ricardo Gómez",
             "genero": "Educativo",
             "disponible_fisico": True,
             "archivo_interno": "e105.pdf",
@@ -36,8 +43,8 @@ if "libros_db" not in st.session_state:
         },
         {
             "codigo": "h106",
-            "titulo": "La Cali que yo conocí", 
-            "autor": "José Ignacio Claros V.", 
+            "titulo": "La Cali que yo conocí",
+            "autor": "José Ignacio Claros V.",
             "genero": "Historia",
             "disponible_fisico": True,
             "archivo_interno": "h106.pdf",
@@ -45,8 +52,8 @@ if "libros_db" not in st.session_state:
         },
         {
             "codigo": "i107",
-            "titulo": "El Nuevo Mundo de los Niños: Grandes Exploradores", 
-            "autor": "Equipo Editorial", 
+            "titulo": "El Nuevo Mundo de los Niños: Grandes Exploradores",
+            "autor": "Equipo Editorial",
             "genero": "Infantil",
             "disponible_fisico": True,
             "archivo_interno": "i107.pdf",
@@ -54,20 +61,73 @@ if "libros_db" not in st.session_state:
         }
     ]
 
+
+# --- FUNCIONES AUXILIARES ---
+def ruta_local(nombre):
+    """Convierte un nombre de archivo en ruta absoluta dentro de la carpeta del proyecto."""
+    return os.path.join(BASE_DIR, nombre)
+
+
+def cargar_imagen_segura(nombre_archivo):
+    """Devuelve (bytes, formato) si la imagen es válida; si no, None."""
+    ruta = ruta_local(nombre_archivo)
+    if not nombre_archivo or not os.path.exists(ruta):
+        return None
+    try:
+        with open(ruta, "rb") as f:
+            datos = f.read()
+        img = Image.open(io.BytesIO(datos))
+        formato = (img.format or "JPEG").lower()
+        img.verify()  # comprueba que no esté corrupta
+        return datos, formato
+    except Exception:
+        return None
+
+
+def titulo_con_hover(titulo, imagen):
+    """Título que muestra la portada al pasar el puntero."""
+    titulo_safe = html.escape(titulo)
+    if imagen is None:
+        return f"<h3>📖 {titulo_safe}</h3>"
+    datos, formato = imagen
+    b64 = base64.b64encode(datos).decode()
+    return f"""
+    <h3 class="tip">📖 {titulo_safe}
+        <span class="pic"><img src="data:image/{formato};base64,{b64}"></span>
+    </h3>
+    """
+
+
+# Estilo del efecto hover (se define una sola vez)
+st.markdown("""
+<style>
+.tip { position: relative; display: inline-block; cursor: pointer; }
+.tip .pic {
+    visibility: hidden; opacity: 0; position: absolute;
+    left: 0; top: 100%; z-index: 9999;
+    background: white; padding: 6px; border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(0,0,0,.35);
+    transition: opacity .2s;
+}
+.tip:hover .pic { visibility: visible; opacity: 1; }
+.tip .pic img { width: 180px; display: block; border-radius: 4px; }
+</style>
+""", unsafe_allow_html=True)
+
 # --- 3. BARRA LATERAL IZQUIERDA (Navegación y Filtros) ---
 with st.sidebar:
     st.header("🗂️ Navegación")
-    
+
     generos_disponibles = sorted(list(set(libro["genero"] for libro in st.session_state.libros_db)))
     opciones_genero = ["Selecciona un género..."] + generos_disponibles
-    
+
     genero_seleccionado = st.selectbox("1. Elige un Género:", opciones_genero)
-    
+
     busqueda = ""
     if genero_seleccionado != "Selecciona un género...":
         st.markdown("---")
         busqueda = st.text_input(
-            "2. ¿Qué libro buscas de este género?", 
+            "2. ¿Qué libro buscas de este género?",
             placeholder="Escribe el título o autor...",
             key="input_busqueda"
         ).strip()
@@ -82,7 +142,7 @@ if genero_seleccionado == "Selecciona un género...":
     st.info("💡 Por favor, selecciona un género en la barra lateral izquierda para explorar los libros disponibles.")
 else:
     libros_filtrados = [l for l in st.session_state.libros_db if l["genero"] == genero_seleccionado]
-    
+
     if busqueda:
         resultados = []
         for libro in libros_filtrados:
@@ -95,40 +155,44 @@ else:
     if resultados:
         st.subheader(f"📚 Libros encontrados en *{genero_seleccionado}*")
         st.markdown("##")
-        
+
         for libro in resultados:
-            st.subheader(f"📖 {libro['titulo']}")
+            imagen = cargar_imagen_segura(libro.get("imagen_portada", ""))
+
+            # Título en MAYÚSCULA, con la portada al pasar el puntero
+            st.markdown(titulo_con_hover(libro["titulo"].upper(), imagen), unsafe_allow_html=True)
             st.write(f"**Autor:** {libro['autor']}")
-            st.markdown(f"**Código:** <span style='color: #1E3A8A; font-weight: bold; font-family: monospace; font-size: 16px;'>{libro['codigo'].upper()}</span>", unsafe_allow_html=True)
+            st.markdown(
+                f"**Código:** <span style='color: #1E3A8A; font-weight: bold; font-family: monospace; font-size: 16px;'>{libro['codigo'].upper()}</span>",
+                unsafe_allow_html=True
+            )
             st.write("")
-            
+
             # Gestión de Disponibilidad Física
             if libro["disponible_fisico"]:
                 st.success("✅ Disponible en formato físico en los estantes.")
             else:
                 st.warning("⚠️ No disponible en formato físico.")
-            
-            # BOTÓN AZUL DE DESCARGA DIRECTA DE PDF SI EXISTE EL ARCHIVO
-            if "archivo_interno" in libro:
-                nombre_pdf = libro["archivo_interno"]
-                if os.path.exists(nombre_pdf):
-                    with open(nombre_pdf, "rb") as archivo_pdf:
-                        st.download_button(
-                            label="⬇️ Descargar PDF Directo",
-                            data=archivo_pdf.read(),
-                            file_name=f"{libro['titulo']}.pdf",
-                            mime="application/pdf",
-                            key=f"btn_{libro['codigo']}"
-                        )
-            
-            # MOSTRAR PORTADA LOCAL .JPG DE FORMA BINARIA ULTRA SEGURA
-            if "imagen_portada" in libro:
-                nombre_img = libro["imagen_portada"]
-                if os.path.exists(nombre_img):
-                    with open(nombre_img, "rb") as f_img:
-                        bytes_img = f_img.read()
-                    st.image(bytes_img, width=150)
-                
+
+            # BOTÓN DE DESCARGA DIRECTA DE PDF LOCAL
+            nombre_pdf = libro.get("archivo_interno", "")
+            ruta_pdf = ruta_local(nombre_pdf)
+            if nombre_pdf and os.path.exists(ruta_pdf):
+                with open(ruta_pdf, "rb") as archivo_pdf:
+                    st.download_button(
+                        label="⬇️ Descargar PDF Directo",
+                        data=archivo_pdf.read(),
+                        file_name=f"{libro['titulo']}.pdf",
+                        mime="application/pdf",
+                        key=f"btn_{libro['codigo']}"
+                    )
+
+            # PORTADA VISIBLE (si el archivo es válido; si no, avisa sin romper la app)
+            if imagen:
+                st.image(imagen[0], width=150)
+            else:
+                st.caption("🖼️ Portada no disponible (archivo de imagen inválido o ausente).")
+
             st.markdown("---")
     else:
         st.warning(f"❌ No encontramos ningún libro que coincida con '{busqueda}' en este género.")
@@ -147,9 +211,9 @@ with st.sidebar:
                 nuevo_autor = st.text_input("Autor:")
                 nuevo_genero = st.text_input("Género:")
                 dispo_fisico = st.checkbox("¿Está disponible físicamente?", value=True)
-                
+
                 boton_guardar = st.form_submit_button("Guardar libro en el sistema")
-                
+
                 if boton_guardar:
                     if nuevo_codigo and nuevo_titulo and nuevo_autor and nuevo_genero:
                         nuevo_libro = {
