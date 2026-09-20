@@ -58,9 +58,19 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "i107.pdf",
             "imagen_portada": "i107.jpg"
+        },
+    
+        
+        {
+            "codigo": "na108",
+            "titulo": "El Tesoro de la Pordiosera",
+            "autor": "Julia Mercedes Castilla",
+            "genero": "Narrativa Juvenil",
+            "disponible_fisico": True,
+            "archivo_interno": "na108.pdf",
+            "imagen_portada": "na108.jpg"
         }
     ]
-
 
 # --- FUNCIONES AUXILIARES ---
 def ruta_local(nombre):
