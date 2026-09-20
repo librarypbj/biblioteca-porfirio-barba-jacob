@@ -208,7 +208,7 @@ else:
             if buscar_archivo(libro.get("archivo_interno", "")):
                 st.info("📄 Disponible en formato PDF.")
             else:
-                st.warning("📄 PDF no disponible por el momento.")
+                st.info("📄 Este libro no tiene versión en PDF.")
 
             # BOTÓN DE DESCARGA DIRECTA DE PDF LOCAL
             nombre_pdf = libro.get("archivo_interno", "")
