@@ -69,9 +69,18 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "nj108.pdf",
             "imagen_portada": "nj108.jpg"
+        },
+         {
+            "codigo": "d109",
+            "titulo": "Atlas de la Biologia",
+            "autor": "Andres Haro Vera",
+            "genero": "Didactico",
+            "disponible_fisico": False,
+            "archivo_interno": "d109.pdf",
+            "imagen_portada": "d109.jpg"
         }
     ]
-
+   
 # --- FUNCIONES AUXILIARES ---
 def ruta_local(nombre):
     """Convierte un nombre de archivo en ruta absoluta dentro de la carpeta del proyecto."""
