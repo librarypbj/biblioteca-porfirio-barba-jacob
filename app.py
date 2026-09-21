@@ -230,6 +230,22 @@ else:
                st.caption(f"🖼️ Portada no disponible ({libro.get('imagen_portada', '')} no encontrada, vacía o inválida).")
                
             st.markdown("---")
+         # --- LIBROS RELACIONADOS (mismo género) ---
+        if busqueda:
+            codigos_mostrados = {l["codigo"] for l in resultados}
+            relacionados = [l for l in libros_filtrados if l["codigo"] not in codigos_mostrados]
+
+            if relacionados:
+                st.subheader(f"📚 Más libros de {genero_seleccionado}")
+                columnas = st.columns(4)
+                for i, rel in enumerate(relacionados):
+                    with columnas[i % 4]:
+                        img_rel = cargar_imagen_segura(rel.get("imagen_portada", ""))
+                        if img_rel:
+                            st.image(img_rel[0], use_container_width=True)
+                        st.markdown(f"**{rel['titulo']}**")
+                        st.caption(rel["autor"])
+
     else:
         st.warning(f"❌ No encontramos ningún libro que coincida con '{busqueda}' en este género.")
 # --- 7. PANEL DE ADMINISTRACIÓN OCULTO ---
