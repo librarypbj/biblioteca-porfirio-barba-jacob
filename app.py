@@ -78,8 +78,8 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "d109.pdf",
             "imagen_portada": "d109.jpg"
-        }
-    ]
+        },
+    
     {
             "codigo": "cp110",
             "titulo": "Sabotaje en el Atlantico",
@@ -89,6 +89,8 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "cp110.pdf",
             "imagen_portada": "cp110.jpg"
         }
+
+        ]
    
 # --- FUNCIONES AUXILIARES ---
 def buscar_archivo(nombre_archivo):
