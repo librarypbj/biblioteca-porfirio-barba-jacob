@@ -117,13 +117,13 @@ if "libros_db" not in st.session_state:
             "imagen_portada": "p114.jpg"
         },
         {
-            "codigo": "xx111",
-            "titulo": "TÍTULO",
-            "autor": "AUTOR",
-            "genero": "GÉNERO",
+            "codigo": "na115",
+            "titulo": "¿Quien Dice que no a las Drogas?",
+            "autor": "Ricardo Alcantara",
+            "genero": "Novela de Aprendizaje",
             "disponible_fisico": True,
-            "archivo_interno": "xx111.pdf",
-            "imagen_portada": "xx111.jpg"
+            "archivo_interno": "na115.pdf",
+            "imagen_portada": "na115.jpg"
         }
  ]
     
