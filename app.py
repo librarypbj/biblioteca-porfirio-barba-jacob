@@ -133,6 +133,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "vt116.pdf",
             "imagen_portada": "vt116.jpg"
+        },
+        {
+            "codigo": "nh117",
+            "titulo": "Ramses the song Light ",
+            "autor": "Christian Jacq",
+            "genero": "Novela Historica",
+            "disponible_fisico": True,
+            "archivo_interno": "nh117.pdf",
+            "imagen_portada": "nh117.jpg"
         }
  ]
     
