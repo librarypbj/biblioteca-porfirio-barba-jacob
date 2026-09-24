@@ -106,6 +106,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "ac112.pdf",
             "imagen_portada": "ac112.jpg"
+        },
+       {
+            "codigo": "p114",
+            "titulo": "Formas Para Almorzar",
+            "autor": "Charles Reasoner",
+            "genero": "Pedagogia",
+            "disponible_fisico": True,
+            "archivo_interno": "p114.pdf",
+            "imagen_portada": "p114.jpg"
         }
  ]
     
