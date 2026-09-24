@@ -160,6 +160,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "mo119.pdf",
             "imagen_portada": "mo119.jpg"
+        },
+         {
+            "codigo": "i120",
+            "titulo": "Habia una vez",
+            "autor": "Graciela Montes",
+            "genero": "Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "i120.pdf",
+            "imagen_portada": "i120.jpg"
         }
  ]
     
