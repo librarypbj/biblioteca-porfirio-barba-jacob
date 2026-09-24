@@ -275,6 +275,7 @@ else:
             # PORTADA VISIBLE (si el archivo es válido; si no, avisa sin romper la app)
             if imagen:
                 img_portada = Image.open(io.BytesIO(imagen[0]))
+                img_portada = img_portada.rotate(-90, expand=True)
                 img_recortada = ImageOps.fit(img_portada, (150, 220), Image.LANCZOS)
                 st.image(img_recortada, width=150)
             else:
