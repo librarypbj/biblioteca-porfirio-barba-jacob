@@ -88,6 +88,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "cp110.pdf",
             "imagen_portada": "cp110.jpg"
+        },
+        {
+            "codigo": "di111",
+            "titulo": "Paises del Mundo",
+            "autor": "El Tiempo,Editorial",
+            "genero": "Divulgacion Informatica",
+            "disponible_fisico": True,
+            "archivo_interno": "di111.pdf",
+            "imagen_portada": "di111.jpg"
         }
  ]
     
