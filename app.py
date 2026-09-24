@@ -97,6 +97,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "di111.pdf",
             "imagen_portada": "di111.jpg"
+        },
+       {
+            "codigo": "ac112",
+            "titulo": "Cuentos Colombianos Antologia",
+            "autor": "Varios Autores",
+            "genero": "Antologia de Cuentos",
+            "disponible_fisico": True,
+            "archivo_interno": "ac112.pdf",
+            "imagen_portada": "ac112.jpg"
         }
  ]
     
