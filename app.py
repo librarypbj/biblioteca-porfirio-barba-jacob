@@ -178,6 +178,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "m121.pdf",
             "imagen_portada": "m121.jpg"
+        },
+         {
+            "codigo": "f122",
+            "titulo": "¡Que el Lobo se Muere",
+            "autor": "Antonio Rodriguez Almodovar",
+            "genero": "Fabula,Cuento Popular tardicional",
+            "disponible_fisico": True,
+            "archivo_interno": "f122.pdf",
+            "imagen_portada": "f122.jpg"
         }
  ]
     
