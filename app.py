@@ -151,6 +151,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "m118.pdf",
             "imagen_portada": "m118.jpg"
+        },
+         {
+            "codigo": "mo119",
+            "titulo": "Lo que los Jovenes Preguntan",
+            "autor": "Editado por los Testigos de Jehovah",
+            "genero": "Manual de Orientacion",
+            "disponible_fisico": True,
+            "archivo_interno": "mo119.pdf",
+            "imagen_portada": "mo119.jpg"
         }
  ]
     
