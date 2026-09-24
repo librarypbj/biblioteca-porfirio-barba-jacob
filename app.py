@@ -124,6 +124,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "na115.pdf",
             "imagen_portada": "na115.jpg"
+       },
+      {
+            "codigo": "vt116",
+            "titulo": "Time Out:Buenos Aires",
+            "autor": "Equipo de Periodistas",
+            "genero": "Viajes, Turismo",
+            "disponible_fisico": True,
+            "archivo_interno": "vt116.pdf",
+            "imagen_portada": "vt116.jpg"
         }
  ]
     
