@@ -169,6 +169,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "i120.pdf",
             "imagen_portada": "i120.jpg"
+        },
+         {
+            "codigo": "m121",
+            "titulo": "Cuentos de Fantasmas",
+            "autor": "Varios Autores",
+            "genero": "Misterio,Literatura Gotica Clasica",
+            "disponible_fisico": True,
+            "archivo_interno": "m121.pdf",
+            "imagen_portada": "m121.jpg"
         }
  ]
     
