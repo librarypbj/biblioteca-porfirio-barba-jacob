@@ -3,7 +3,7 @@ import os
 import io
 import html
 import base64
-from PIL import Image
+from PIL import Image, ImageOps
 
 # --- 1. CONFIGURACIÓN DE LA INTERFAZ ---
 st.set_page_config(page_title="Buscador de Biblioteca", page_icon="📚", layout="wide")
@@ -115,6 +115,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "p114.pdf",
             "imagen_portada": "p114.jpg"
+        },
+        {
+            "codigo": "xx111",
+            "titulo": "TÍTULO",
+            "autor": "AUTOR",
+            "genero": "GÉNERO",
+            "disponible_fisico": True,
+            "archivo_interno": "xx111.pdf",
+            "imagen_portada": "xx111.jpg"
         }
  ]
     
@@ -265,7 +274,9 @@ else:
 
             # PORTADA VISIBLE (si el archivo es válido; si no, avisa sin romper la app)
             if imagen:
-                st.image(imagen[0], width=150)
+                img_portada = Image.open(io.BytesIO(imagen[0]))
+                img_recortada = ImageOps.fit(img_portada, (150, 220), Image.LANCZOS)
+                st.image(img_recortada, width=150)
             else:
                st.caption(f"🖼️ Portada no disponible ({libro.get('imagen_portada', '')} no encontrada, vacía o inválida).")
                
