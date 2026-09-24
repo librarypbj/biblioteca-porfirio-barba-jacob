@@ -142,6 +142,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "nh117.pdf",
             "imagen_portada": "nh117.jpg"
+        },
+         {
+            "codigo": "m118",
+            "titulo": "Death on the Nile",
+            "autor": "Agatha Christie",
+            "genero": " Misterio,Policiaca,bilingüe",
+            "disponible_fisico": True,
+            "archivo_interno": "m118.pdf",
+            "imagen_portada": "m118.jpg"
         }
  ]
     
