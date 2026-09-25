@@ -189,13 +189,13 @@ if "libros_db" not in st.session_state:
             "imagen_portada": "f122.jpg"
         },
          {
-            "codigo": "xx111",
-            "titulo": "TÍTULO",
-            "autor": "AUTOR",
-            "genero": "GÉNERO",
+            "codigo": "mf123",
+            "titulo": "Ang Alamat ng Palay",
+            "autor": "Victoria Anonuevo",
+            "genero": "Mitologia Filipina",
             "disponible_fisico": True,
-            "archivo_interno": "xx111.pdf",
-            "imagen_portada": "xx111.jpg"
+            "archivo_interno": "mf123.pdf",
+            "imagen_portada": "mf123.jpg"
         }
  ]
     
