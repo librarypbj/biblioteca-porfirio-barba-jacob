@@ -223,6 +223,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "i126.pdf",
             "imagen_portada": "i126.jpg"
+        },
+         {
+            "codigo": "i127",
+            "titulo": "The Spectacular Tree",
+            "autor": "Robert Gunnar Magnuson",
+            "genero": "Cuento Infantil Ilustrado, bilingüe",
+            "disponible_fisico": True,
+            "archivo_interno": "i127.pdf",
+            "imagen_portada": "i127.jpg"
         }
  ]
     
