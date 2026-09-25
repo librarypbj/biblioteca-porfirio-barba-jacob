@@ -277,6 +277,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "a132.pdf",
             "imagen_portada": "a132.jpg"
+        },
+         {
+            "codigo": "i133",
+            "titulo": "May Pera Sa Basura",
+            "autor": "Antonio Lamberto",
+            "genero": "Literatura Infantil, Didactica",
+            "disponible_fisico": True,
+            "archivo_interno": "i133.pdf",
+            "imagen_portada": "i133.jpg"
         }
  ]
     
