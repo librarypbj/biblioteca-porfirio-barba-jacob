@@ -313,6 +313,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "ie136.pdf",
             "imagen_portada": "ie136.jpg"
+        },
+         {
+            "codigo": "pe137",
+            "titulo": "Divina Comedia",
+            "autor": "Dante Alighieri",
+            "genero": "Literatura Universal",
+            "disponible_fisico": True,
+            "archivo_interno": "pe137.pdf",
+            "imagen_portada": "pe137.jpg"
         }
  ]
     
