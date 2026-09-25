@@ -196,6 +196,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "mf123.pdf",
             "imagen_portada": "mf123.jpg"
+        },
+     {
+            "codigo": "i124",
+            "titulo": "Ahora Rio..Ya No Lloro",
+            "autor": "Patricia Salazar Patiño",
+            "genero": "Cuento Infantil Ilustrado",
+            "disponible_fisico": True,
+            "archivo_interno": "i124.pdf",
+            "imagen_portada": "i124.jpg"
         }
  ]
     
