@@ -232,6 +232,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "i127.pdf",
             "imagen_portada": "i127.jpg"
+        },
+     {
+            "codigo": "ri128",
+            "titulo": "Diola: Ang Bayani Ng Philippine Eagle",
+            "autor": "Mary Ann Ordinario Floresta & Yasmin s.ong",
+            "genero": "Relato Infantil Ilustrado, bilingüe",
+            "disponible_fisico": True,
+            "archivo_interno": "ri128.pdf",
+            "imagen_portada": "ri128.jpg"
         }
  ]
     
