@@ -205,6 +205,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "i124.pdf",
             "imagen_portada": "i124.jpg"
+        },
+         {
+            "codigo": "i125",
+            "titulo": "Tutubi Patrol 10: Si Padrong Pato at Ang Matalinong Kuwago",
+            "autor": "Ben s. Alba",
+            "genero": "Cuento Infantil Ilustrado, bilingüe",
+            "disponible_fisico": True,
+            "archivo_interno": "i125.pdf",
+            "imagen_portada": "i125.jpg"
         }
  ]
     
