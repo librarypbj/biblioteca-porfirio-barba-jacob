@@ -353,7 +353,7 @@ if "libros_db" not in st.session_state:
          {
             "codigo": "ct141",
             "titulo": "Si Pilandok Sa Pulo Ng Pawikan",
-            "autor": "Victoria Anonnuevo",
+            "autor": "Victoria Anonuevo",
             "genero": "Cuento Tradicional",
             "disponible_fisico": True,
             "archivo_interno": "ct141.pdf",
