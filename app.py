@@ -295,6 +295,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "ci134.pdf",
             "imagen_portada": "ci134.jpg"
+        },
+        {
+            "codigo": "ti135",
+            "titulo": "muertos de susto",
+            "autor": "Maria Fernanda Paz Castillo",
+            "genero": "Antologia",
+            "disponible_fisico": True,
+            "archivo_interno": "ti135.pdf",
+            "imagen_portada": "ti135.jpg"
         }
  ]
     
