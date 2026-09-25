@@ -250,6 +250,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "li129.pdf",
             "imagen_portada": "li129.jpg"
+        },
+         {
+            "codigo": "li130",
+            "titulo": "Tutubi Patrol 8:Si Bumbi Bubuyog at ang mga Alitaptap",
+            "autor": "Timmy l. Cruz & Luis P. Gatmaitan",
+            "genero": "Cuento Infantil Educativo, bilingüe",
+            "disponible_fisico": True,
+            "archivo_interno": "li130.pdf",
+            "imagen_portada": "li130.jpg"
         }
  ]
     
