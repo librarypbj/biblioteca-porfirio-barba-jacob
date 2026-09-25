@@ -304,6 +304,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "ti135.pdf",
             "imagen_portada": "ti135.jpg"
+        },
+         {
+            "codigo": "ie136",
+            "titulo": "¿Que Puedes Encontrar? En la Naturaleza",
+            "autor": "Coleccion Muchos Animales Para Ver Y Nombrar",
+            "genero": "Interactivo Estimulacion",
+            "disponible_fisico": True,
+            "archivo_interno": "ie136.pdf",
+            "imagen_portada": "ie136.jpg"
         }
  ]
     
