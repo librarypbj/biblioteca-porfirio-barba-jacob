@@ -331,6 +331,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "ni138.pdf",
             "imagen_portada": "ni138.jpg"
+        },
+         {
+            "codigo": "rc139",
+            "titulo": "La Parure Et Autres Nouvelles Realistes",
+            "autor": "Guy De Mau Passant",
+            "genero": "Relatos Clasicos Francese",
+            "disponible_fisico": True,
+            "archivo_interno": "rc139.pdf",
+            "imagen_portada": "rc139.jpg"
         }
  ]
     
