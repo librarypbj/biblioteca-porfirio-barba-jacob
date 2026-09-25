@@ -286,6 +286,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "i133.pdf",
             "imagen_portada": "i133.jpg"
+        },
+         {
+            "codigo": "ci134",
+            "titulo": "Tutubi Patrol 2: Si Popoy Palay At ang mga damo",
+            "autor": "Tutubi Patrol Team",
+            "genero": "Cuento Infantil ",
+            "disponible_fisico": True,
+            "archivo_interno": "ci134.pdf",
+            "imagen_portada": "ci134.jpg"
         }
  ]
     
