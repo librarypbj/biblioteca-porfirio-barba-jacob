@@ -241,6 +241,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "ri128.pdf",
             "imagen_portada": "ri128.jpg"
+        },
+         {
+            "codigo": "li129",
+            "titulo": "Papel de liha/Sandpaper",
+            "autor": "Ompong Remigio",
+            "genero": "Literatura Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "li129.pdf",
+            "imagen_portada": "li129.jpg"
         }
  ]
     
