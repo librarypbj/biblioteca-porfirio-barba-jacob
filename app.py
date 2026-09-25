@@ -340,6 +340,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "rc139.pdf",
             "imagen_portada": "rc139.jpg"
+        },
+         {
+            "codigo": "li140",
+            "titulo": "Munting Sinag Araw",
+            "autor": "Gloria Villaraza Guzman",
+            "genero": "Cuento Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "li140.pdf",
+            "imagen_portada": "li140.jpg"
         }
  ]
     
