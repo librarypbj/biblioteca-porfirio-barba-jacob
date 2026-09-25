@@ -273,7 +273,7 @@ if "libros_db" not in st.session_state:
             "codigo": "a132",
             "titulo": "Zorro",
             "autor": "Johnston McCulley",
-            "genero": "Aventura, ",
+            "genero": "Aventura ",
             "disponible_fisico": True,
             "archivo_interno": "a132.pdf",
             "imagen_portada": "a132.jpg"
