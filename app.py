@@ -322,6 +322,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "pe137.pdf",
             "imagen_portada": "pe137.jpg"
+        },
+         {
+            "codigo": "ni138",
+            "titulo": "Cara de Chancho",
+            "autor": "Anna Lavatelli",
+            "genero": "Novela Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "ni138.pdf",
+            "imagen_portada": "ni138.jpg"
         }
  ]
     
