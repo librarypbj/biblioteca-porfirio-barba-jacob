@@ -214,6 +214,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "i125.pdf",
             "imagen_portada": "i125.jpg"
+        },
+         {
+            "codigo": "i126",
+            "titulo": "There's a Duwende in my Brother's Soup",
+            "autor": "Clara Saguisag",
+            "genero": "Cuento Infantil Ilustrado, bilingüe",
+            "disponible_fisico": True,
+            "archivo_interno": "i126.pdf",
+            "imagen_portada": "i126.jpg"
         }
  ]
     
