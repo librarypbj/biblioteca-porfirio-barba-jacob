@@ -259,6 +259,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "i130.pdf",
             "imagen_portada": "i130.jpg"
+        },
+         {
+            "codigo": "ct131",
+            "titulo": "Si Pilandok at ang  Manok Na Nangingitlog ng Ginto",
+            "autor": "Victoria Anonuevo",
+            "genero": "Cuento Tradicional Filipino, bilingüe",
+            "disponible_fisico": True,
+            "archivo_interno": "ct131.pdf",
+            "imagen_portada": "ct131.jpg"
         }
  ]
     
