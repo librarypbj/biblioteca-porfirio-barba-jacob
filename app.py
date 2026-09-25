@@ -349,6 +349,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "li140.pdf",
             "imagen_portada": "li140.jpg"
+        },
+         {
+            "codigo": "ct141",
+            "titulo": "Si Pilandok Sa Pulo Ng Pawikan",
+            "autor": "Victoria Anonnuevo",
+            "genero": "Cuento Tradicional",
+            "disponible_fisico": True,
+            "archivo_interno": "ct141.pdf",
+            "imagen_portada": "ct141.jpg"
         }
  ]
     
