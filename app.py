@@ -506,17 +506,11 @@ else:
                         key=f"btn_{libro['codigo']}"
                     )
 
-            # PORTADA VISIBLE (si el archivo es válido; si no, avisa sin romper la app)
-            if imagen:
-                img_portada = Image.open(io.BytesIO(imagen[0]))
-                img_portada = img_portada.rotate(-90, expand=True)
-                img_recortada = ImageOps.fit(img_portada, (150, 220), Image.LANCZOS)
-                st.image(img_recortada, width=150)
-            else:
-               st.caption(f"🖼️ Portada no disponible ({libro.get('imagen_portada', '')} no encontrada, vacía o inválida).")
+           
                
-            st.markdown("---")
-         # --- LIBROS RELACIONADOS (mismo género) ---
+        st.markdown("---")
+
+        # --- LIBROS RELACIONADOS (mismo género) ---
         if busqueda:
             codigos_mostrados = {l["codigo"] for l in resultados}
             relacionados = [l for l in libros_filtrados if l["codigo"] not in codigos_mostrados]
@@ -531,9 +525,8 @@ else:
                             st.image(img_rel[0], use_container_width=True)
                         st.markdown(f"**{rel['titulo']}**")
                         st.caption(rel["autor"])
-
-    else:
-        st.warning(f"❌ No encontramos ningún libro que coincida con '{busqueda}' en este género.")
+                else:
+                 st.warning(f"❌ No encontramos ningún libro que coincida con '{busqueda}' en este género.")
 # --- 7. PANEL DE ADMINISTRACIÓN OCULTO ---
 with st.sidebar:
     st.markdown("##")
