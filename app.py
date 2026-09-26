@@ -473,7 +473,7 @@ else:
         for libro in resultados:
             imagen = cargar_imagen_segura(libro.get("imagen_portada", ""))
 
-            st.subheader(f"📖 {libro['titulo'].upper()}")
+            st.markdown(titulo_con_hover(libro["titulo"].upper(), imagen), unsafe_allow_html=True)
             
             st.write(f"**Autor:** {libro['autor']}")
             st.markdown(
