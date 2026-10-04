@@ -394,6 +394,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "e145.pdf",
             "imagen_portada": "e145.jpg"
+        },
+         {
+            "codigo": "i146",
+            "titulo": "Do Your Earns Hang Low?",
+            "autor": "Dorothea Deprisco Wang",
+            "genero": "Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "i146.pdf",
+            "imagen_portada": "i146.jpg"
         }
  ]
     
