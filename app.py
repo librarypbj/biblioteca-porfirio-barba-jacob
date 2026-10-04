@@ -405,6 +405,7 @@ if "libros_db" not in st.session_state:
             "imagen_portada": "i146.jpg"
         }
         
+
  ]
     
 
