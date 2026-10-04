@@ -385,6 +385,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "e144.pdf",
             "imagen_portada": "e144.jpg"
+        },
+       {
+            "codigo": "e145",
+            "titulo": "La Gran Esperanza",
+            "autor": "Equipo Medico Y Comunicaciones Fundacion Valle Del Lili",
+            "genero": "Educativo",
+            "disponible_fisico": True,
+            "archivo_interno": "e145.pdf",
+            "imagen_portada": "e145.jpg"
         }
  ]
     
