@@ -367,6 +367,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "i142.pdf",
             "imagen_portada": "i142.jpg"
+        },
+        {
+            "codigo": "i143",
+            "titulo": "Muting Patak Ulan (A Little Raindrop)",
+            "autor": "Gloria Villaraza Guzman",
+            "genero": "Infantil, bilingüe",
+            "disponible_fisico": True,
+            "archivo_interno": "i143.pdf",
+            "imagen_portada": "i143.jpg"
         }
  ]
     
