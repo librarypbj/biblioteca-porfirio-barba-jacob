@@ -403,8 +403,16 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "i146.pdf",
             "imagen_portada": "i146.jpg"
-        }
-        
+        },
+        {
+            "codigo": "i147",
+            "titulo": "El Soldadito de Plomo",
+            "autor": "Hans Christian Andersen",
+            "genero": "Literatura Clasica Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "i147.pdf",
+            "imagen_portada": "i147.jpg"
+        },
 
  ]
     
