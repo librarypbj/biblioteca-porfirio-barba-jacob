@@ -421,6 +421,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "i148.pdf",
             "imagen_portada": "i148.jpg"
+        },
+        {
+            "codigo": "ml149",
+            "titulo": "Simbad(De Los Cuentos De Las Mil Y Una Noches)",
+            "autor": "Ludmila Zeman",
+            "genero": "Mitologia Y Leyendas",
+            "disponible_fisico": True,
+            "archivo_interno": "ml149.pdf",
+            "imagen_portada": "ml149.jpg"
         }
 
  ]
