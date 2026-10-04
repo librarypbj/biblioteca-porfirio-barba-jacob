@@ -413,6 +413,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "i147.pdf",
             "imagen_portada": "i147.jpg"
         },
+        {
+            "codigo": "i148",
+            "titulo": "La Mena Y Anisilla",
+            "autor": "Hernan Garrido Lecca",
+            "genero": "Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "i148.pdf",
+            "imagen_portada": "i148.jpg"
+        }
 
  ]
     
