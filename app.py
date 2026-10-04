@@ -439,6 +439,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "i150.pdf",
             "imagen_portada": "i150.jpg"
+        },
+         {
+            "codigo": "cf151",
+            "titulo": "Star Wars:Tatooine Adventures",
+            "autor": "Clare Hibbert",
+            "genero": "Ciencia Ficcion",
+            "disponible_fisico": True,
+            "archivo_interno": "cf151.pdf",
+            "imagen_portada": "cf151.jpg"
         }
 
  ]
