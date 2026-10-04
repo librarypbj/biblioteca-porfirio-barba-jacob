@@ -358,6 +358,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "ct141.pdf",
             "imagen_portada": "ct141.jpg"
+        },
+        {
+            "codigo": "i142",
+            "titulo": "The Elephant's Tale",
+            "autor": "Avril Rowlands",
+            "genero": "infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "i142.pdf",
+            "imagen_portada": "i142.jpg"
         }
  ]
     
