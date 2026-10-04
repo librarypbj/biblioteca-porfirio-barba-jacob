@@ -376,6 +376,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "i143.pdf",
             "imagen_portada": "i143.jpg"
+        },
+        {
+            "codigo": "e144",
+            "titulo": "When I Cross The Street",
+            "autor": "Lin Acacio Flores",
+            "genero": "Educativo, bilingüe",
+            "disponible_fisico": True,
+            "archivo_interno": "e144.pdf",
+            "imagen_portada": "e144.jpg"
         }
  ]
     
