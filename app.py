@@ -618,36 +618,3 @@ else:
                         st.caption(rel["autor"])
                 else:
                  st.warning(f"❌ No encontramos ningún libro que coincida con '{busqueda}' en este género.")
-# --- 7. PANEL DE ADMINISTRACIÓN OCULTO ---
-with st.sidebar:
-    st.markdown("##")
-    st.markdown("---")
-    with st.expander("🔐 Panel Administrador"):
-        password = st.text_input("Contraseña:", type="password", key="admin_pass")
-        if password == "1234":
-            st.success("Acceso concedido:")
-            with st.form("nuevo_libro_form", clear_on_submit=True):
-                nuevo_codigo = st.text_input("Código (ej: e108):")
-                nuevo_titulo = st.text_input("Título del Libro:")
-                nuevo_autor = st.text_input("Autor:")
-                nuevo_genero = st.text_input("Género:")
-                dispo_fisico = st.checkbox("¿Está disponible físicamente?", value=True)
-
-                boton_guardar = st.form_submit_button("Guardar libro en el sistema")
-
-                if boton_guardar:
-                    if nuevo_codigo and nuevo_titulo and nuevo_autor and nuevo_genero:
-                        nuevo_libro = {
-                            "codigo": nuevo_codigo.lower(),
-                            "titulo": nuevo_titulo,
-                            "autor": nuevo_autor,
-                            "genero": nuevo_genero,
-                            "disponible_fisico": dispo_fisico,
-                            "archivo_interno": f"{nuevo_codigo.lower()}.pdf",
-                            "imagen_portada": f"{nuevo_codigo.lower()}.jpg"
-                        }
-                        st.session_state.libros_db.append(nuevo_libro)
-                        st.success(f"🎉 ¡El libro '{nuevo_titulo}' ha sido registrado!")
-                        st.rerun()
-                    else:
-                        st.error("⚠️ Por favor, rellena todos los campos.")
