@@ -718,6 +718,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "fh181.pdf",
             "imagen_portada": "fh181.jpg"
+        },
+         {
+            "codigo": "nc182",
+            "titulo": "El Tercer Patio",
+            "autor": "Adolfo Mendez Vides",
+            "genero": "Novela Contemporanea",
+            "disponible_fisico": True,
+            "archivo_interno": "nc182.pdf",
+            "imagen_portada": "nc182.jpg"
         }
 
  ]
