@@ -448,6 +448,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "cf151.pdf",
             "imagen_portada": "cf151.jpg"
+        },
+         {
+            "codigo": "gm152",
+            "titulo": "El Fin Del Alzheimer",
+            "autor": "Dr, Dale Bredesen",
+            "genero": "Guia Medica",
+            "disponible_fisico": True,
+            "archivo_interno": "gm152.pdf",
+            "imagen_portada": "gm152.jpg"
         }
 
  ]
