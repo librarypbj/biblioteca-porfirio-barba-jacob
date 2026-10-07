@@ -576,13 +576,13 @@ if "libros_db" not in st.session_state:
             "imagen_portada": "rs165.jpg"
         },
          {
-            "codigo": "",
-            "titulo": "TÍTULO DEL LIBRO",
-            "autor": "NOMBRE DEL AUTOR",
-            "genero": "GÉNERO",
+            "codigo": "fp166",
+            "titulo": "El Largo Adios",
+            "autor": "Raymond Chandler",
+            "genero": "Ficcion Policiaca",
             "disponible_fisico": True,
-            "archivo_interno": "xx113.pdf",
-            "imagen_portada": "xx113.jpg"
+            "archivo_interno": "fp166.pdf",
+            "imagen_portada": "fp166.jpg"
         }
 
  ]
