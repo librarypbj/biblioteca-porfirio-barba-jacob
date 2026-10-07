@@ -520,6 +520,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "fc159.pdf",
             "imagen_portada": "fc159.jpg"
+        },
+        {
+            "codigo": "fh160",
+            "titulo": "Tiempo De Heroes",
+            "autor": "Anabel Saiz Ripoll",
+            "genero": "Ficcion Historica",
+            "disponible_fisico": True,
+            "archivo_interno": "fh160.pdf",
+            "imagen_portada": "fh160.jpg"
         }
 
  ]
