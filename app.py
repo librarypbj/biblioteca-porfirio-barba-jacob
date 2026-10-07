@@ -569,11 +569,20 @@ if "libros_db" not in st.session_state:
          {
             "codigo": "rs165",
             "titulo": "La Voragine",
-            "autor": "NOMBRE DEL AUTOR",
+            "autor": "Jose Eustasio Rivera",
             "genero": "Realismo Social",
             "disponible_fisico": True,
             "archivo_interno": "rs165.pdf",
             "imagen_portada": "rs165.jpg"
+        },
+         {
+            "codigo": "",
+            "titulo": "TÍTULO DEL LIBRO",
+            "autor": "NOMBRE DEL AUTOR",
+            "genero": "GÉNERO",
+            "disponible_fisico": True,
+            "archivo_interno": "xx113.pdf",
+            "imagen_portada": "xx113.jpg"
         }
 
  ]
