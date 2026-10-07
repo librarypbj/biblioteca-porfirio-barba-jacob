@@ -673,6 +673,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "e176.pdf",
             "imagen_portada": "e176.jpg"
+        },
+         {
+            "codigo": "li177",
+            "titulo": "Los Pigemeos",
+            "autor": "Nathaniel Hawthorne",
+            "genero": "Literatura Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "li177.pdf",
+            "imagen_portada": "li177.jpg"
         }
 
  ]
