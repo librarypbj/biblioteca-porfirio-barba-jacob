@@ -655,6 +655,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "e174.pdf",
             "imagen_portada": "e174.jpg"
+        },
+         {
+            "codigo": "e175",
+            "titulo": "Los Caminos Del Saber: Lenguaje 8",
+            "autor": "Editorial Santillana",
+            "genero": "Educativo",
+            "disponible_fisico": True,
+            "archivo_interno": "e175.pdf",
+            "imagen_portada": "e175.jpg"
         }
 
  ]
