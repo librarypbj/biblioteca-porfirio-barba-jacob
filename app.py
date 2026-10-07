@@ -700,6 +700,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "a179.pdf",
             "imagen_portada": "a179.jpg"
+        },
+         {
+            "codigo": "ep180",
+            "titulo": "Le Sanglot De L'homme Blanc",
+            "autor": "Pascal Bruckner",
+            "genero": "Ensayo Politico",
+            "disponible_fisico": True,
+            "archivo_interno": "ep180.pdf",
+            "imagen_portada": "ep180.jpg"
         }
 
  ]
