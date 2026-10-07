@@ -529,6 +529,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "fh160.pdf",
             "imagen_portada": "fh160.jpg"
+        },
+         {
+            "codigo": "t161",
+            "titulo": "Guia Turistica Huila Colombia",
+            "autor": "Ministerio de Comercio, Industria y Turismo",
+            "genero": "Turismo",
+            "disponible_fisico": True,
+            "archivo_interno": "t161.pdf",
+            "imagen_portada": "t161.jpg"
         }
 
  ]
