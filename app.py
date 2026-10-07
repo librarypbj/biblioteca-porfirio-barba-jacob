@@ -592,6 +592,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "nb167.pdf",
             "imagen_portada": "nb167.jpg"
+        },
+         {
+            "codigo": "np168",
+            "titulo": "La Serpiente Emplumada",
+            "autor": "D, H. Lawrence",
+            "genero": "Novela Politica",
+            "disponible_fisico": True,
+            "archivo_interno": "np168.pdf",
+            "imagen_portada": "np168.jpg"
         }
 
  ]
