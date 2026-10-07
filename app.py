@@ -646,6 +646,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "ml173.pdf",
             "imagen_portada": "ml173.jpg"
+        },
+         {
+            "codigo": "e174",
+            "titulo": "Español 11 - Literatura Universal  Y Analisis Textual",
+            "autor": "Editorial Santillana",
+            "genero": "Educativo",
+            "disponible_fisico": True,
+            "archivo_interno": "e174.pdf",
+            "imagen_portada": "e174.jpg"
         }
 
  ]
