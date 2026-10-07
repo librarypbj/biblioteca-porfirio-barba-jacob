@@ -620,6 +620,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "fj170.pdf",
             "imagen_portada": "fj170.jpg"
         },
+        {
+            "codigo": "cp171",
+            "titulo": "Desterrados",
+            "autor": "Alfredo Molano Bravo",
+            "genero": "Crónica Periodística",
+            "disponible_fisico": True,
+            "archivo_interno": "cp171.pdf",
+            "imagen_portada": "cp171.jpg"
+        }
 
  ]
     
