@@ -583,6 +583,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "fp166.pdf",
             "imagen_portada": "fp166.jpg"
+        },
+         {
+            "codigo": "nb167",
+            "titulo": "Los Doce Del Patibulo",
+            "autor": "E. M. Nathanson",
+            "genero": "Novela Belica",
+            "disponible_fisico": True,
+            "archivo_interno": "nb167.pdf",
+            "imagen_portada": "nb167.jpg"
         }
 
  ]
