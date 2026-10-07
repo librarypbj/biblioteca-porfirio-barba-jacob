@@ -547,6 +547,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "f162.pdf",
             "imagen_portada": "f162.jpg"
+        },
+         {
+            "codigo": "e163",
+            "titulo": "Secuencias Matematicas 8",
+            "autor": "Editorial Pedagogico,Varios Autores",
+            "genero": "Educativo",
+            "disponible_fisico": True,
+            "archivo_interno": "e163.pdf",
+            "imagen_portada": "e163.jpg"
         }
 
  ]
