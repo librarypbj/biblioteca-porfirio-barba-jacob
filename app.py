@@ -538,6 +538,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "t161.pdf",
             "imagen_portada": "t161.jpg"
+        },
+         {
+            "codigo": "f162",
+            "titulo": "Destinos",
+            "autor": "Peter Denne Bart ",
+            "genero": "Ficcion",
+            "disponible_fisico": True,
+            "archivo_interno": "f162.pdf",
+            "imagen_portada": "f162.jpg"
         }
 
  ]
