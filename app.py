@@ -691,6 +691,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "mc178.pdf",
             "imagen_portada": "mc178.jpg"
+        },
+         {
+            "codigo": "a179",
+            "titulo": "Padre Rico, Padre Pobre",
+            "autor": "Robert Kiyosaki con Sharon Lechter",
+            "genero": "Autoayuda",
+            "disponible_fisico": True,
+            "archivo_interno": "a179.pdf",
+            "imagen_portada": "a179.jpg"
         }
 
  ]
