@@ -709,6 +709,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "ep180.pdf",
             "imagen_portada": "ep180.jpg"
+        },
+         {
+            "codigo": "fh181",
+            "titulo": "The Doctor's Wife",
+            "autor": "Sawako Arriyoshi",
+            "genero": "Ficcion Historica",
+            "disponible_fisico": True,
+            "archivo_interno": "fh181.pdf",
+            "imagen_portada": "fh181.jpg"
         }
 
  ]
