@@ -556,6 +556,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "e163.pdf",
             "imagen_portada": "e163.jpg"
+        },
+         {
+            "codigo": "f164",
+            "titulo": "Cipi",
+            "autor": "Mario Lodi",
+            "genero": "Fabula",
+            "disponible_fisico": True,
+            "archivo_interno": "f164.pdf",
+            "imagen_portada": "f164.jpg"
         }
 
  ]
