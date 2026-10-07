@@ -664,6 +664,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "e175.pdf",
             "imagen_portada": "e175.jpg"
+        },
+         {
+            "codigo": "E176",
+            "titulo": "Español 3",
+            "autor": "Equipo Editorial Santillana",
+            "genero": "Educativo",
+            "disponible_fisico": True,
+            "archivo_interno": "e176.pdf",
+            "imagen_portada": "e176.jpg"
         }
 
  ]
