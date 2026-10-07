@@ -475,6 +475,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "fh154.pdf",
             "imagen_portada": "fh154.jpg"
+        },
+         {
+            "codigo": "d155",
+            "titulo": "Ojitos De Angel",
+            "autor": "Ramon Fonseca Mora",
+            "genero": "Drama",
+            "disponible_fisico": True,
+            "archivo_interno": "d155.pdf",
+            "imagen_portada": "d155.jpg"
         }
 
  ]
