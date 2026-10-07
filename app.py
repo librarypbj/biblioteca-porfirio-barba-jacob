@@ -610,7 +610,16 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "fp169.pdf",
             "imagen_portada": "fp169.jpg"
-        }
+        },
+         {
+            "codigo": "fj170",
+            "titulo": "Stone Cold",
+            "autor": "Robert Swindells",
+            "genero": "Ficcion Juvenil",
+            "disponible_fisico": True,
+            "archivo_interno": "fj170.pdf",
+            "imagen_portada": "fj170.jpg"
+        },
 
  ]
     
