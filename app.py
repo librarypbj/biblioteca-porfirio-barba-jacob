@@ -565,6 +565,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "f164.pdf",
             "imagen_portada": "f164.jpg"
+        },
+         {
+            "codigo": "rs165",
+            "titulo": "La Voragine",
+            "autor": "NOMBRE DEL AUTOR",
+            "genero": "Realismo Social",
+            "disponible_fisico": True,
+            "archivo_interno": "rs165.pdf",
+            "imagen_portada": "rs165.jpg"
         }
 
  ]
