@@ -457,6 +457,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "gm152.pdf",
             "imagen_portada": "gm152.jpg"
+        },
+        {
+            "codigo": "fd153",
+            "titulo": "Billy Elliot",
+            "autor": "Melvin Burgess",
+            "genero": "Ficcion Dramática",
+            "disponible_fisico": True,
+            "archivo_interno": "fd153.pdf",
+            "imagen_portada": "fd153.jpg"
         }
 
  ]
