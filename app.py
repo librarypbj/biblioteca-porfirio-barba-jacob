@@ -637,6 +637,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "li172.pdf",
             "imagen_portada": "li172.jpg"
+        },
+         {
+            "codigo": "ml173",
+            "titulo": "America Cuenta Sus Mitos",
+            "autor": "Flor Romero",
+            "genero": "Mitologia, Leyendas",
+            "disponible_fisico": True,
+            "archivo_interno": "ml173.pdf",
+            "imagen_portada": "ml173.jpg"
         }
 
  ]
