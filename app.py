@@ -466,6 +466,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "fd153.pdf",
             "imagen_portada": "fd153.jpg"
+        },
+         {
+            "codigo": "fh154",
+            "titulo": "Wide Sargasso Sea",
+            "autor": "Jean Rhys",
+            "genero": "Ficcion Historica",
+            "disponible_fisico": True,
+            "archivo_interno": "fh154.pdf",
+            "imagen_portada": "fh154.jpg"
         }
 
  ]
