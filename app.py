@@ -628,6 +628,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "cp171.pdf",
             "imagen_portada": "cp171.jpg"
+        },
+         {
+            "codigo": "li172",
+            "titulo": "Las Palabras Del Abuelo",
+            "autor": "Conchita Penilla Cespedes",
+            "genero": "Literatura Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "li172.pdf",
+            "imagen_portada": "li172.jpg"
         }
 
  ]
