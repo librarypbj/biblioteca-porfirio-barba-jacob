@@ -502,6 +502,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "pe157.pdf",
             "imagen_portada": "pe157.jpg"
+        },
+         {
+            "codigo": "av158",
+            "titulo": "Juventud En Extasis",
+            "autor": "Carlos Cuauhtemoc Sanchez",
+            "genero": "Autoayuda, Valores",
+            "disponible_fisico": True,
+            "archivo_interno": "av158.pdf",
+            "imagen_portada": "av158.jpg"
         }
 
  ]
