@@ -493,6 +493,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "f156.pdf",
             "imagen_portada": "f156.jpg"
+        },
+         {
+            "codigo": "pe157",
+            "titulo": "Obra Literaria De Jorge Gaitan Duran",
+            "autor": "Jorge Gaitan Duran",
+            "genero": "Poesia, Ensayo",
+            "disponible_fisico": True,
+            "archivo_interno": "pe157.pdf",
+            "imagen_portada": "pe157.jpg"
         }
 
  ]
