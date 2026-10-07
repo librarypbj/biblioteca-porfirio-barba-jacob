@@ -682,6 +682,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "li177.pdf",
             "imagen_portada": "li177.jpg"
+        },
+         {
+            "codigo": "mc178",
+            "titulo": "La Odisea",
+            "autor": "Homero",
+            "genero": "Mitologia Clásica",
+            "disponible_fisico": True,
+            "archivo_interno": "mc178.pdf",
+            "imagen_portada": "mc178.jpg"
         }
 
  ]
