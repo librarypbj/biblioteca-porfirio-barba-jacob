@@ -511,6 +511,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "av158.pdf",
             "imagen_portada": "av158.jpg"
+        },
+         {
+            "codigo": "fc159",
+            "titulo": "Cancion De Navidad & El Poseido",
+            "autor": "Charles Dickens",
+            "genero": "Ficcion Clasica",
+            "disponible_fisico": True,
+            "archivo_interno": "fc159.pdf",
+            "imagen_portada": "fc159.jpg"
         }
 
  ]
