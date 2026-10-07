@@ -484,6 +484,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "d155.pdf",
             "imagen_portada": "d155.jpg"
+        },
+         {
+            "codigo": "f156",
+            "titulo": "La Cosecha",
+            "autor": "Felipe Martinez Cuellar",
+            "genero": "Ficcion",
+            "disponible_fisico": True,
+            "archivo_interno": "f156.pdf",
+            "imagen_portada": "f156.jpg"
         }
 
  ]
