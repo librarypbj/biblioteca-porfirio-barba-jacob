@@ -601,6 +601,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "np168.pdf",
             "imagen_portada": "np168.jpg"
+        },
+         {
+            "codigo": "fp169",
+            "titulo": "Reflejos En Tus Ojos Dorados",
+            "autor": "Carson McCullers",
+            "genero": "Ficcion Psicologica",
+            "disponible_fisico": True,
+            "archivo_interno": "fp169.pdf",
+            "imagen_portada": "fp169.jpg"
         }
 
  ]
