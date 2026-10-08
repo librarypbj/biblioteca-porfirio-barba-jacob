@@ -817,6 +817,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "e191.pdf",
             "imagen_portada": "e191.jpg"
+        },
+         {
+            "codigo": "e192",
+            "titulo": "@prende A Prender 10-Matematicas(Cuaderno de Ejercicios)",
+            "autor": "Equipo Pedagogico Editorial Norma",
+            "genero": "Educativo",
+            "disponible_fisico": True,
+            "archivo_interno": "e192.pdf",
+            "imagen_portada": "e192.jpg"
         }
 
  ]
