@@ -790,6 +790,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "i188.pdf",
             "imagen_portada": "i188.jpg"
+        },
+         {
+            "codigo": "li189",
+            "titulo": "¡Y Todo Por Este Colegio!",
+            "autor": "Juan Gomez",
+            "genero": "Literatura Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "li189.pdf",
+            "imagen_portada": "li189.jpg"
         }
 
  ]
