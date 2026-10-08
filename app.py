@@ -763,6 +763,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "i185.pdf",
             "imagen_portada": "i185.jpg"
+        },
+         {
+            "codigo": "t186",
+            "titulo": "Guia Turistica Arauca Colombia",
+            "autor": "Mayra Alejandra Fuentes Rodriguez & Lizneira Roncancio Arias",
+            "genero": "Turismo",
+            "disponible_fisico": True,
+            "archivo_interno": "t186.pdf",
+            "imagen_portada": "t186.jpg"
         }
 
  ]
