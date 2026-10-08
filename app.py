@@ -808,6 +808,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "lv190.pdf",
             "imagen_portada": "lv190.jpg"
+        },
+         {
+            "codigo": "e191",
+            "titulo": "@prende A Prender 10-Matematicas(libro de contenidos)",
+            "autor": "Equipo Pedagogico Editorial Norma",
+            "genero": "Educativo",
+            "disponible_fisico": True,
+            "archivo_interno": "e191.pdf",
+            "imagen_portada": "e191.jpg"
         }
 
  ]
