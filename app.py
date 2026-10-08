@@ -772,6 +772,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "t186.pdf",
             "imagen_portada": "t186.jpg"
+        },
+         {
+            "codigo": "e187",
+            "titulo": "Test De Biologia Y Quimica(Enciclopedia Infantil)",
+            "autor": "Julio Cesar Poveda",
+            "genero": "Educativo",
+            "disponible_fisico": True,
+            "archivo_interno": "e187.pdf",
+            "imagen_portada": "e187.jpg"
         }
 
  ]
