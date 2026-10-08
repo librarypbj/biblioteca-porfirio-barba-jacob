@@ -799,6 +799,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "li189.pdf",
             "imagen_portada": "li189.jpg"
+        },
+         {
+            "codigo": "lv190",
+            "titulo": "Polish Cities",
+            "autor": "Philip Ward",
+            "genero": "Literatura de Viajes",
+            "disponible_fisico": True,
+            "archivo_interno": "lv190.pdf",
+            "imagen_portada": "lv190.jpg"
         }
 
  ]
