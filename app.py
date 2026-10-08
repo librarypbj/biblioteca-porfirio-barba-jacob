@@ -736,6 +736,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "f103.pdf",
             "imagen_portada": "f103.jpg"
+        },
+         {
+            "codigo": "f183",
+            "titulo": "Harry Potter Y La Piedra Filosofal",
+            "autor": "J.k. Rowling",
+            "genero": "Fantasia",
+            "disponible_fisico": True,
+            "archivo_interno": "f183.pdf",
+            "imagen_portada": "f183.jpg"
         }
 
  ]
