@@ -745,6 +745,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "f183.pdf",
             "imagen_portada": "f183.jpg"
+        },
+         {
+            "codigo": "cr184",
+            "titulo": "Mujeres De Fuego",
+            "autor": "Alonso Salazar J.",
+            "genero": "Cronica Periodistica",
+            "disponible_fisico": True,
+            "archivo_interno": "cr184.pdf",
+            "imagen_portada": "cr184.jpg"
         }
 
  ]
