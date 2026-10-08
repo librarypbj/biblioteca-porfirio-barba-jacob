@@ -727,6 +727,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "nc182.pdf",
             "imagen_portada": "nc182.jpg"
+        },
+         {
+            "codigo": "f103",
+            "titulo": "The Hobbit",
+            "autor": "J.R.R. Tolkien",
+            "genero": "Fantasia",
+            "disponible_fisico": True,
+            "archivo_interno": "f103.pdf",
+            "imagen_portada": "f103.jpg"
         }
 
  ]
