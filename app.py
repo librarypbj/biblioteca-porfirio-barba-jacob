@@ -754,6 +754,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "cr184.pdf",
             "imagen_portada": "cr184.jpg"
+        },
+         {
+            "codigo": "i185",
+            "titulo": "La Tia Gigante",
+            "autor": "Ivan Herrera Orsi",
+            "genero": "Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "i185.pdf",
+            "imagen_portada": "i185.jpg"
         }
 
  ]
