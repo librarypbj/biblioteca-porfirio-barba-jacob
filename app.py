@@ -781,6 +781,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "e187.pdf",
             "imagen_portada": "e187.jpg"
+        },
+         {   
+            "codigo": "i188",
+            "titulo": "Disney Frozen",
+            "autor": "Disney(El Gato de Hojalata)",
+            "genero": "Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "i188.pdf",
+            "imagen_portada": "i188.jpg"
         }
 
  ]
