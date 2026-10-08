@@ -826,6 +826,15 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "e192.pdf",
             "imagen_portada": "e192.jpg"
+        },
+         {
+            "codigo": "e193",
+            "titulo": "Gold Experience B1+(Student's Book)",
+            "autor": "Fiona Beddall & Megan Roderick",
+            "genero": "Educativo",
+            "disponible_fisico": True,
+            "archivo_interno": "e193.pdf",
+            "imagen_portada": "e193.jpg"
         }
 
  ]
