@@ -908,6 +908,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "m201.pdf",
             "imagen_portada": "m201.jpg"
         },
+         {
+            "codigo": "lc202",
+            "titulo": "Don Quijote De La Mancha",
+            "autor": "Miguel De Cervantes Saavedra",
+            "genero": "Literatura Clasica",
+            "disponible_fisico": True,
+            "archivo_interno": "lc202.pdf",
+            "imagen_portada": "lc202.jpg"
+        },
 
  ]
     
