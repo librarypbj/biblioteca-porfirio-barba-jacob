@@ -80,7 +80,7 @@ if "libros_db" not in st.session_state:
             "imagen_portada": "d109.jpg"
         },
     
-            {
+         {
             "codigo": "cp110",
             "titulo": "Sabotaje en el Atlantico",
             "autor": "Gordon Thomas & Max Morgan-Witts",
@@ -89,7 +89,7 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "cp110.pdf",
             "imagen_portada": "cp110.jpg"
         },
-        {
+         {
             "codigo": "di111",
             "titulo": "Paises del Mundo",
             "autor": "El Tiempo,Editorial",
@@ -98,7 +98,7 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "di111.pdf",
             "imagen_portada": "di111.jpg"
         },
-       {
+         {
             "codigo": "ac112",
             "titulo": "Cuentos Colombianos Antologia",
             "autor": "Varios Autores",
@@ -107,7 +107,7 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "ac112.pdf",
             "imagen_portada": "ac112.jpg"
         },
-       {
+         {
             "codigo": "p114",
             "titulo": "Formas Para Almorzar",
             "autor": "Charles Reasoner",
@@ -116,7 +116,7 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "p114.pdf",
             "imagen_portada": "p114.jpg"
         },
-        {
+         {
             "codigo": "na115",
             "titulo": "¿Quien Dice que no a las Drogas?",
             "autor": "Ricardo Alcantara",
@@ -125,7 +125,7 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "na115.pdf",
             "imagen_portada": "na115.jpg"
        },
-      {
+        {
             "codigo": "vt116",
             "titulo": "Time Out:Buenos Aires",
             "autor": "Equipo de Periodistas",
@@ -134,7 +134,7 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "vt116.pdf",
             "imagen_portada": "vt116.jpg"
         },
-        {
+         {
             "codigo": "nh117",
             "titulo": "Ramses the song Light ",
             "autor": "Christian Jacq",
