@@ -917,6 +917,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "lc202.pdf",
             "imagen_portada": "lc202.jpg"
         },
+         {
+            "codigo": "dc203",
+            "titulo": "Antarctica-Land Of The Penguins",
+            "autor": "Jonathan Y Angela Scott",
+            "genero": "Divulgacion Cientifica",
+            "disponible_fisico": True,
+            "archivo_interno": "dc203.pdf",
+            "imagen_portada": "dc203.jpg"
+        },
 
  ]
     
