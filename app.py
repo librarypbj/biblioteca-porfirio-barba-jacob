@@ -926,6 +926,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "dc203.pdf",
             "imagen_portada": "dc203.jpg"
         },
+         {
+            "codigo": "i204",
+            "titulo": "La Cenicienta-Basado Cuento Clasico Tradicional",
+            "autor": "Walt Disney",
+            "genero": "Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "i204.pdf",
+            "imagen_portada": "i204.jpg"
+        },
 
  ]
     
