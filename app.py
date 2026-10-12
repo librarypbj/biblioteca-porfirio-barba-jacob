@@ -835,7 +835,16 @@ if "libros_db" not in st.session_state:
             "disponible_fisico": True,
             "archivo_interno": "e193.pdf",
             "imagen_portada": "e193.jpg"
-        }
+        },
+         {
+            "codigo": "e194",
+            "titulo": "Desafios Comunicativos 8",
+            "autor": "Equipo Editorial Santillana",
+            "genero": "Educativo",
+            "disponible_fisico": True,
+            "archivo_interno": "e194.pdf",
+            "imagen_portada": "e194.jpg"
+        },
 
  ]
     
