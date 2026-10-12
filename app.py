@@ -854,6 +854,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "e195.pdf",
             "imagen_portada": "e195.jpg"
         },
+         {
+            "codigo": "nc196",
+            "titulo": "Las Mil Y Una Noches",
+            "autor": "Anonimo",
+            "genero": "Narrativa Clasica",
+            "disponible_fisico": True,
+            "archivo_interno": "nc196.pdf",
+            "imagen_portada": "nc196.jpg"
+        },
 
  ]
     
