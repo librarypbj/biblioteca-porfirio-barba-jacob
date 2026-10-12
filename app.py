@@ -935,6 +935,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "i204.pdf",
             "imagen_portada": "i204.jpg"
         },
+         {
+            "codigo": "p205",
+            "titulo": "Tecnicas De Motivacion Infantil En La Educacion(Tomo 3)",
+            "autor": "Semira Thoumi",
+            "genero": "Pedagogia",
+            "disponible_fisico": True,
+            "archivo_interno": "p205.pdf",
+            "imagen_portada": "p205.jpg"
+        },
 
  ]
     
