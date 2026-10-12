@@ -845,6 +845,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "e194.pdf",
             "imagen_portada": "e194.jpg"
         },
+         {
+            "codigo": "e195",
+            "titulo": "Desafios Comunicativos 9",
+            "autor": "Equipo Editorial Santillana",
+            "genero": "Educativo",
+            "disponible_fisico": True,
+            "archivo_interno": "e195.pdf",
+            "imagen_portada": "e195.jpg"
+        },
 
  ]
     
