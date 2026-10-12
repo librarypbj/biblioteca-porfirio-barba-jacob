@@ -872,6 +872,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "li197.pdf",
             "imagen_portada": "li197.jpg"
         },
+         {
+            "codigo": "li198",
+            "titulo": "Piper Reed, Navy Brat",
+            "autor": "Kimberly Willis Holt",
+            "genero": "Literatura Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "li198.pdf",
+            "imagen_portada": "li198.jpg"
+        },
 
  ]
     
