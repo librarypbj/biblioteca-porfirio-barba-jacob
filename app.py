@@ -890,6 +890,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "i199.pdf",
             "imagen_portada": "i199.jpg"
         },
+         {
+            "codigo": "i200",
+            "titulo": "Charlie Y El Gran Ascensor",
+            "autor": "Roald Dahl",
+            "genero": "Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "i200.pdf",
+            "imagen_portada": "i200.jpg"
+        },
 
  ]
     
