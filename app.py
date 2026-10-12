@@ -881,6 +881,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "li198.pdf",
             "imagen_portada": "li198.jpg"
         },
+         {
+            "codigo": "i199",
+            "titulo": "Team Umizoomi:Playground Power",
+            "autor": "Equipo Didactico Leapfrog Enterprise",
+            "genero": "Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "i199.pdf",
+            "imagen_portada": "i199.jpg"
+        },
 
  ]
     
