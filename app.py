@@ -863,6 +863,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "nc196.pdf",
             "imagen_portada": "nc196.jpg"
         },
+         {
+            "codigo": "li197",
+            "titulo": "Soloman",
+            "autor": "Ramon Garcia Dominguez",
+            "genero": "Literatura Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "li197.pdf",
+            "imagen_portada": "li197.jpg"
+        },
 
  ]
     
