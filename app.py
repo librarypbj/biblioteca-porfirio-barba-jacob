@@ -899,6 +899,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "i200.pdf",
             "imagen_portada": "i200.jpg"
         },
+         {
+            "codigo": "m201",
+            "titulo": "Mitos Griegos",
+            "autor": "Mary Pope Osborne",
+            "genero": "Mitologia",
+            "disponible_fisico": True,
+            "archivo_interno": "m201.pdf",
+            "imagen_portada": "m201.jpg"
+        },
 
  ]
     
