@@ -944,6 +944,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "p205.pdf",
             "imagen_portada": "p205.jpg"
         },
+         {
+            "codigo": "i206",
+            "titulo": "La Biblia Infantil",
+            "autor": "Editorial Zamora",
+            "genero": "Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "i206.pdf",
+            "imagen_portada": "i206.jpg"
+        },
 
  ]
     
