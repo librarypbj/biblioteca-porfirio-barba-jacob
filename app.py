@@ -980,6 +980,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "i209.pdf",
             "imagen_portada": "i209.jpg"
         },
+         {
+            "codigo": "i210",
+            "titulo": "Alamat Ng Ampalaya(The Legend Of The Bitter Gound)",
+            "autor": "Augie D. Rivera, Jr",
+            "genero": "Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "i210.pdf",
+            "imagen_portada": "i210.jpg"
+        },
 
  ]
     
