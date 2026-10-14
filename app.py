@@ -962,6 +962,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "e207.pdf",
             "imagen_portada": "e207.jpg"
         },
+         {
+            "codigo": "e208",
+            "titulo": "Mi Jardin Secreto:Enciclopedia Infantil(Destrezas Y Habilidades Manuales)",
+            "autor": "Editorial Zamora",
+            "genero": "Educativo",
+            "disponible_fisico": True,
+            "archivo_interno": "e208.pdf",
+            "imagen_portada": "e208.jpg"
+        },
 
  ]
     
