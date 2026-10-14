@@ -998,6 +998,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "e211.pdf",
             "imagen_portada": "e211.jpg"
         },
+         {
+            "codigo": "e212",
+            "titulo": "Gente Buena Para Un Mundo Mejor",
+            "autor": "Colectivo( Gobernacion Del Valle Del Cauca-Diario Del Pais)",
+            "genero": "Educativo",
+            "disponible_fisico": True,
+            "archivo_interno": "e212.pdf",
+            "imagen_portada": "e212.jpg"
+        },
 
  ]
     
