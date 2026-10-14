@@ -1007,6 +1007,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "e212.pdf",
             "imagen_portada": "e212.jpg"
         },
+         {
+            "codigo": "i213",
+            "titulo": "Cuentos Fantasticos",
+            "autor": "Anonimo",
+            "genero": "Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "i213.pdf",
+            "imagen_portada": "i213.jpg"
+        },
 
  ]
     
