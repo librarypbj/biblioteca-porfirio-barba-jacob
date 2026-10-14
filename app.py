@@ -953,6 +953,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "i206.pdf",
             "imagen_portada": "i206.jpg"
         },
+         {
+            "codigo": "e207",
+            "titulo": "Science(Delfines)",
+            "autor": "Timothy Cooney Co-Autor Scott Fresman",
+            "genero": "Educativo",
+            "disponible_fisico": True,
+            "archivo_interno": "e207.pdf",
+            "imagen_portada": "e207.jpg"
+        },
 
  ]
     
