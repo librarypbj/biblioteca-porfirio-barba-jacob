@@ -1016,6 +1016,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "i213.pdf",
             "imagen_portada": "i213.jpg"
         },
+         {
+            "codigo": "e214",
+            "titulo": "El Nuevo Mundo De Los Niños(yo:Maquina Perfecta)",
+            "autor": "Gustavo De Lorza Martinez",
+            "genero": "Educativo",
+            "disponible_fisico": True,
+            "archivo_interno": "e214.pdf",
+            "imagen_portada": "e214.jpg"
+        },
 
  ]
     
