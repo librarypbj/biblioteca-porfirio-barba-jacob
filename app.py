@@ -971,6 +971,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "e208.pdf",
             "imagen_portada": "e208.jpg"
         },
+         {
+            "codigo": "i209",
+            "titulo": "El Arca De Noe",
+            "autor": "Susanne Conrad Y Eva Montanari",
+            "genero": "Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "i209.pdf",
+            "imagen_portada": "i209.jpg"
+        },
 
  ]
     
