@@ -1034,6 +1034,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "i215.pdf",
             "imagen_portada": "i215.jpg"
         },
+         {
+            "codigo": "cf216",
+            "titulo": "Detectives Del ADN",
+            "autor": "Angela Posada-Swafford",
+            "genero": "Ciencia Ficcion",
+            "disponible_fisico": True,
+            "archivo_interno": "cf216.pdf",
+            "imagen_portada": "cf216.jpg"
+        },
 
  ]
     
