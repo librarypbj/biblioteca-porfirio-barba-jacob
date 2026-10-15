@@ -1133,6 +1133,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "n226.pdf",
             "imagen_portada": "n226.jpg"
         },
+         {
+            "codigo": "nj227",
+            "titulo": "La Habitacion Del Lobo",
+            "autor": "Gabriele Clima",
+            "genero": "Novela Juvenil",
+            "disponible_fisico": True,
+            "archivo_interno": "nj227.pdf",
+            "imagen_portada": "nj227.jpg"
+        },
          
  ]
     
