@@ -1115,6 +1115,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "i224.pdf",
             "imagen_portada": "i224.jpg"
         },
+         {
+            "codigo": "d225",
+            "titulo": "Escribir No Muerde",
+            "autor": "Miguel Fernando Caro Gamboa",
+            "genero": "Didactico",
+            "disponible_fisico": True,
+            "archivo_interno": "d225.pdf",
+            "imagen_portada": "d225.jpg"
+        },
          
  ]
     
