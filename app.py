@@ -1052,6 +1052,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "f217.pdf",
             "imagen_portada": "f217.jpg"
         },
+         {
+            "codigo": "i218",
+            "titulo": "Una Cama Para Tres",
+            "autor": "Yolanda Reyes",
+            "genero": "Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "i218.pdf",
+            "imagen_portada": "i218.jpg"
+        },
 
  ]
     
