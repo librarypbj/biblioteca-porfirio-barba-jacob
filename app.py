@@ -1142,6 +1142,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "nj227.pdf",
             "imagen_portada": "nj227.jpg"
         },
+         {
+            "codigo": "n228",
+            "titulo": "Asmir No Quiere Pistolas",
+            "autor": "Christobel Mattingley",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "n228.pdf",
+            "imagen_portada": "n228.jpg"
+        },
          
  ]
     
