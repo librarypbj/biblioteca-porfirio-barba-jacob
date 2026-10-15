@@ -1079,6 +1079,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "nj220.pdf",
             "imagen_portada": "nj220.jpg"
         },
+         {
+            "codigo": "e221",
+            "titulo": "Lenguaje 9(Colegio Arquidiocesanos)",
+            "autor": "Equipo Editorial Norma",
+            "genero": "Educativo",
+            "disponible_fisico": True,
+            "archivo_interno": "e221.pdf",
+            "imagen_portada": "e221.jpg"
+        },
          
  ]
     
