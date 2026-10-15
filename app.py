@@ -1106,6 +1106,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "n223.pdf",
             "imagen_portada": "n223.jpg"
         },
+         {
+            "codigo": "i224",
+            "titulo": "Horrible Histories:Villainous Victorians",
+            "autor": "Terry Deary",
+            "genero": "Informativo",
+            "disponible_fisico": True,
+            "archivo_interno": "i224.pdf",
+            "imagen_portada": "i224.jpg"
+        },
          
  ]
     
