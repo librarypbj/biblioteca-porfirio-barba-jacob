@@ -1097,6 +1097,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "n222.pdf",
             "imagen_portada": "n222.jpg"
         },
+         {
+            "codigo": "n223",
+            "titulo": "Verde Fue Mi Selva",
+            "autor": "Edna Iturrable",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "n223.pdf",
+            "imagen_portada": "n223.jpg"
+        },
          
  ]
     
