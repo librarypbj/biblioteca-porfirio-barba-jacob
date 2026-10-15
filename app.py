@@ -1124,6 +1124,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "d225.pdf",
             "imagen_portada": "d225.jpg"
         },
+         {
+            "codigo": "n226",
+            "titulo": "Cuentos Para Niños Que Creen En Marcianos",
+            "autor": "Jordi Sierra i Fabra",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "n226.pdf",
+            "imagen_portada": "n226.jpg"
+        },
          
  ]
     
