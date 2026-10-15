@@ -1151,6 +1151,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "n228.pdf",
             "imagen_portada": "n228.jpg"
         },
+         {
+            "codigo": "n229",
+            "titulo": "Una (Estupenda) Historia De Dragones Y Princesas(...Mas O Menos)",
+            "autor": "Jordi Sierra i Fabra",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "n229.pdf",
+            "imagen_portada": "n229.jpg"
+        },
          
  ]
     
