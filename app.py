@@ -1088,6 +1088,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "e221.pdf",
             "imagen_portada": "e221.jpg"
         },
+         {
+            "codigo": "n222",
+            "titulo": "El Viejo Celular Y Otros Relatos",
+            "autor": "Victor M. Almanza",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "n222.pdf",
+            "imagen_portada": "n222.jpg"
+        },
          
  ]
     
