@@ -1043,6 +1043,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "cf216.pdf",
             "imagen_portada": "cf216.jpg"
         },
+         {
+            "codigo": "f217",
+            "titulo": "El Pequeño Vampiro",
+            "autor": "Angela Sommer-Bodenburg",
+            "genero": "Fantasia",
+            "disponible_fisico": True,
+            "archivo_interno": "f217.pdf",
+            "imagen_portada": "f217.jpg"
+        },
 
  ]
     
