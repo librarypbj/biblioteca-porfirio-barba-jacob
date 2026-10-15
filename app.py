@@ -1070,6 +1070,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "i219.pdf",
             "imagen_portada": "i219.jpg"
         },
+         {
+            "codigo": "nj220",
+            "titulo": "Flora, La Desconocida Del Espacio",
+            "autor": "Pierre-Marie Beaude",
+            "genero": "Novela Juvenil",
+            "disponible_fisico": True,
+            "archivo_interno": "nj220.pdf",
+            "imagen_portada": "nj220.jpg"
+        },
          
  ]
     
