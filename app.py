@@ -1178,6 +1178,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "n231.pdf",
             "imagen_portada": "n231.jpg"
         },
+         {
+            "codigo": "nj232",
+            "titulo": "Momo",
+            "autor": "Michael Ende",
+            "genero": "Novela Juvenil",
+            "disponible_fisico": True,
+            "archivo_interno": "nj232.pdf",
+            "imagen_portada": "nj232.jpg"
+        },
          
  ]
     
