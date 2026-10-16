@@ -1187,6 +1187,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "nj232.pdf",
             "imagen_portada": "nj232.jpg"
         },
+         {
+            "codigo": "n233",
+            "titulo": "Cuentos Clasicos Bilingues:Caperucita Roja Y El Gato Con Botas",
+            "autor": "Charles Perrault",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "n233.pdf",
+            "imagen_portada": "n233.jpg"
+        },
          
  ]
     
