@@ -1214,6 +1214,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "d235.pdf",
             "imagen_portada": "d235.jpg"
         },
+         {
+            "codigo": "d236",
+            "titulo": "El Mundo Magico Del Ingles",
+            "autor": "Editores Zamora",
+            "genero": "Didactico",
+            "disponible_fisico": True,
+            "archivo_interno": "d236.pdf",
+            "imagen_portada": "d236.jpg"
+        },
          
  ]
     
