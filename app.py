@@ -1205,6 +1205,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "i234.pdf",
             "imagen_portada": "i234.jpg"
         },
+         {
+            "codigo": "d235",
+            "titulo": "Tecnicas De La Motivacion Infantil En La Educacion Tomo1 (0 A 2 Años)",
+            "autor": "Ediciones Gamma",
+            "genero": "Didactico",
+            "disponible_fisico": True,
+            "archivo_interno": "d235.pdf",
+            "imagen_portada": "d235.jpg"
+        },
          
  ]
     
