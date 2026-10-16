@@ -1223,6 +1223,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "d236.pdf",
             "imagen_portada": "d236.jpg"
         },
+         {
+            "codigo": "n237",
+            "titulo": "Cuentos Fantasticos",
+            "autor": "Anonimo",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "n237.pdf",
+            "imagen_portada": "n237.jpg"
+        },
          
  ]
     
