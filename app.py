@@ -1169,6 +1169,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "i230.pdf",
             "imagen_portada": "i230.jpg"
         },
+         {
+            "codigo": "n231",
+            "titulo": "A Proposito De La Novela Picaresa",
+            "autor": "Anonimo",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "n231.pdf",
+            "imagen_portada": "n231.jpg"
+        },
          
  ]
     
