@@ -1196,6 +1196,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "n233.pdf",
             "imagen_portada": "n233.jpg"
         },
+         {
+            "codigo": "i234",
+            "titulo": "Cenicienta Disney",
+            "autor": "Charles Perrault",
+            "genero": "Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "i234.pdf",
+            "imagen_portada": "i234.jpg"
+        },
          
  ]
     
