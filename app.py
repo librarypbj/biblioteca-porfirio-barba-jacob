@@ -1160,6 +1160,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "n229.pdf",
             "imagen_portada": "n229.jpg"
         },
+         {
+            "codigo": "i230",
+            "titulo": "Disney Junior:Comic 1 Vampirina Y La Guardia Del Leon",
+            "autor": "Disney",
+            "genero": "Infantil",
+            "disponible_fisico": True,
+            "archivo_interno": "i230.pdf",
+            "imagen_portada": "i230.jpg"
+        },
          
  ]
     
