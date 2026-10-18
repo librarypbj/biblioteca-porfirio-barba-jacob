@@ -1232,6 +1232,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "n237.pdf",
             "imagen_portada": "n237.jpg"
         },
+         {
+            "codigo": "n238",
+            "titulo": "La Biblia Infantil",
+            "autor": "Editorial Zamora",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "n238.pdf",
+            "imagen_portada": "n238.jpg"
+        },
          
  ]
     
