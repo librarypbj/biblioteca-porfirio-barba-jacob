@@ -1379,12 +1379,7 @@ else:
                 st.success("✅ Disponible en formato físico en los estantes.")
             else:
                 st.warning("⚠️ No disponible en formato físico.")
-             # Disponibilidad en PDF
-            if buscar_archivo(libro.get("archivo_interno", "")):
-                st.info("📄 Disponible en formato PDF.")
-            else:
-                st.info("📄 Este libro no tiene versión en PDF.")
-
+           
             # BOTÓN DE DESCARGA DIRECTA DE PDF LOCAL
             nombre_pdf = libro.get("archivo_interno", "")
             ruta_pdf = buscar_archivo(nombre_pdf)
