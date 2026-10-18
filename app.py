@@ -20,7 +20,7 @@ if "libros_db" not in st.session_state:
             "autor": "Edgar Allan Poe",
             "genero": "Misterio",
             "disponible_fisico": True,
-            "archivo_interno": "m104.pdf",
+            "archivo_interno": "",
             "imagen_portada": "m104.jpg"
         },
         {
@@ -38,7 +38,7 @@ if "libros_db" not in st.session_state:
             "autor": "Ricardo Gómez",
             "genero": "Educativo",
             "disponible_fisico": True,
-            "archivo_interno": "e105.pdf",
+            "archivo_interno": "",
             "imagen_portada": "e105.jpg"
         },
         {
@@ -47,7 +47,7 @@ if "libros_db" not in st.session_state:
             "autor": "José Ignacio Claros V.",
             "genero": "Historia",
             "disponible_fisico": True,
-            "archivo_interno": "h106.pdf",
+            "archivo_interno": "",
             "imagen_portada": "h106.jpg"
         },
         {
@@ -56,7 +56,7 @@ if "libros_db" not in st.session_state:
             "autor": "Equipo Editorial",
             "genero": "Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "i107.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i107.jpg"
         },
     
@@ -67,7 +67,7 @@ if "libros_db" not in st.session_state:
             "autor": "Julia Mercedes Castilla",
             "genero": "Narrativa Juvenil",
             "disponible_fisico": True,
-            "archivo_interno": "nj108.pdf",
+            "archivo_interno": "",
             "imagen_portada": "nj108.jpg"
         },
          {
@@ -76,7 +76,7 @@ if "libros_db" not in st.session_state:
             "autor": "Andres Haro Vera",
             "genero": "Didactico",
             "disponible_fisico": True,
-            "archivo_interno": "d109.pdf",
+            "archivo_interno": "",
             "imagen_portada": "d109.jpg"
         },
     
@@ -86,7 +86,7 @@ if "libros_db" not in st.session_state:
             "autor": "Gordon Thomas & Max Morgan-Witts",
             "genero": "Cronica Periodistica",
             "disponible_fisico": True,
-            "archivo_interno": "cp110.pdf",
+            "archivo_interno": "",
             "imagen_portada": "cp110.jpg"
         },
          {
@@ -95,7 +95,7 @@ if "libros_db" not in st.session_state:
             "autor": "El Tiempo,Editorial",
             "genero": "Divulgacion Informatica",
             "disponible_fisico": True,
-            "archivo_interno": "di111.pdf",
+            "archivo_interno": "",
             "imagen_portada": "di111.jpg"
         },
          {
@@ -104,7 +104,7 @@ if "libros_db" not in st.session_state:
             "autor": "Varios Autores",
             "genero": "Antologia de Cuentos",
             "disponible_fisico": True,
-            "archivo_interno": "ac112.pdf",
+            "archivo_interno": "",
             "imagen_portada": "ac112.jpg"
         },
          {
@@ -113,7 +113,7 @@ if "libros_db" not in st.session_state:
             "autor": "Charles Reasoner",
             "genero": "Pedagogia",
             "disponible_fisico": True,
-            "archivo_interno": "p114.pdf",
+            "archivo_interno": "",
             "imagen_portada": "p114.jpg"
         },
          {
@@ -122,7 +122,7 @@ if "libros_db" not in st.session_state:
             "autor": "Ricardo Alcantara",
             "genero": "Novela de Aprendizaje",
             "disponible_fisico": True,
-            "archivo_interno": "na115.pdf",
+            "archivo_interno": "",
             "imagen_portada": "na115.jpg"
        },
         {
@@ -131,7 +131,7 @@ if "libros_db" not in st.session_state:
             "autor": "Equipo de Periodistas",
             "genero": "Viajes, Turismo",
             "disponible_fisico": True,
-            "archivo_interno": "vt116.pdf",
+            "archivo_interno": "",
             "imagen_portada": "vt116.jpg"
         },
          {
@@ -140,7 +140,7 @@ if "libros_db" not in st.session_state:
             "autor": "Christian Jacq",
             "genero": "Novela Historica",
             "disponible_fisico": True,
-            "archivo_interno": "nh117.pdf",
+            "archivo_interno": "",
             "imagen_portada": "nh117.jpg"
         },
          {
@@ -149,7 +149,7 @@ if "libros_db" not in st.session_state:
             "autor": "Agatha Christie",
             "genero": " Misterio,Policiaca,bilingüe",
             "disponible_fisico": True,
-            "archivo_interno": "m118.pdf",
+            "archivo_interno": "",
             "imagen_portada": "m118.jpg"
         },
          {
@@ -158,7 +158,7 @@ if "libros_db" not in st.session_state:
             "autor": "Editado por los Testigos de Jehovah",
             "genero": "Manual de Orientacion",
             "disponible_fisico": True,
-            "archivo_interno": "mo119.pdf",
+            "archivo_interno": "",
             "imagen_portada": "mo119.jpg"
         },
          {
@@ -167,7 +167,7 @@ if "libros_db" not in st.session_state:
             "autor": "Graciela Montes",
             "genero": "Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "i120.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i120.jpg"
         },
          {
@@ -176,7 +176,7 @@ if "libros_db" not in st.session_state:
             "autor": "Varios Autores",
             "genero": "Misterio,Literatura Gotica Clasica",
             "disponible_fisico": True,
-            "archivo_interno": "m121.pdf",
+            "archivo_interno": "",
             "imagen_portada": "m121.jpg"
         },
          {
@@ -185,7 +185,7 @@ if "libros_db" not in st.session_state:
             "autor": "Antonio Rodriguez Almodovar",
             "genero": "Fabula,Cuento Popular tradicional",
             "disponible_fisico": True,
-            "archivo_interno": "f122.pdf",
+            "archivo_interno": "",
             "imagen_portada": "f122.jpg"
         },
          {
@@ -194,7 +194,7 @@ if "libros_db" not in st.session_state:
             "autor": "Victoria Anonuevo",
             "genero": "Mitologia Filipina",
             "disponible_fisico": True,
-            "archivo_interno": "mf123.pdf",
+            "archivo_interno": "",
             "imagen_portada": "mf123.jpg"
         },
      {
@@ -203,7 +203,7 @@ if "libros_db" not in st.session_state:
             "autor": "Patricia Salazar Patiño",
             "genero": "Cuento Infantil Ilustrado",
             "disponible_fisico": True,
-            "archivo_interno": "i124.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i124.jpg"
         },
          {
@@ -212,7 +212,7 @@ if "libros_db" not in st.session_state:
             "autor": "Ben s. Alba",
             "genero": "Cuento Infantil Ilustrado, bilingüe",
             "disponible_fisico": True,
-            "archivo_interno": "i125.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i125.jpg"
         },
          {
@@ -221,7 +221,7 @@ if "libros_db" not in st.session_state:
             "autor": "Clara Saguisag",
             "genero": "Cuento Infantil Ilustrado, bilingüe",
             "disponible_fisico": True,
-            "archivo_interno": "i126.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i126.jpg"
         },
          {
@@ -230,7 +230,7 @@ if "libros_db" not in st.session_state:
             "autor": "Robert Gunnar Magnuson",
             "genero": "Cuento Infantil Ilustrado, bilingüe",
             "disponible_fisico": True,
-            "archivo_interno": "i127.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i127.jpg"
         },
      {
@@ -239,7 +239,7 @@ if "libros_db" not in st.session_state:
             "autor": "Mary Ann Ordinario Floresta & Yasmin s.ong",
             "genero": "Relato Infantil Ilustrado, bilingüe",
             "disponible_fisico": True,
-            "archivo_interno": "ri128.pdf",
+            "archivo_interno": "",
             "imagen_portada": "ri128.jpg"
         },
          {
@@ -248,7 +248,7 @@ if "libros_db" not in st.session_state:
             "autor": "Ompong Remigio",
             "genero": "Literatura Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "li129.pdf",
+            "archivo_interno": "",
             "imagen_portada": "li129.jpg"
         },
          {
@@ -257,7 +257,7 @@ if "libros_db" not in st.session_state:
             "autor": "Timmy l. Cruz & Luis P. Gatmaitan",
             "genero": "Cuento Infantil Educativo, bilingüe",
             "disponible_fisico": True,
-            "archivo_interno": "i130.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i130.jpg"
         },
          {
@@ -266,7 +266,7 @@ if "libros_db" not in st.session_state:
             "autor": "Victoria Anonuevo",
             "genero": "Cuento Tradicional Filipino, bilingüe",
             "disponible_fisico": True,
-            "archivo_interno": "ct131.pdf",
+            "archivo_interno": "",
             "imagen_portada": "ct131.jpg"
         },
          {
@@ -275,7 +275,7 @@ if "libros_db" not in st.session_state:
             "autor": "Johnston McCulley",
             "genero": "Aventura ",
             "disponible_fisico": True,
-            "archivo_interno": "a132.pdf",
+            "archivo_interno": "",
             "imagen_portada": "a132.jpg"
         },
          {
@@ -284,7 +284,7 @@ if "libros_db" not in st.session_state:
             "autor": "Antonio Lamberto",
             "genero": "Literatura Infantil, Didactica",
             "disponible_fisico": True,
-            "archivo_interno": "i133.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i133.jpg"
         },
          {
@@ -293,7 +293,7 @@ if "libros_db" not in st.session_state:
             "autor": "Tutubi Patrol Team",
             "genero": "Cuento Infantil ",
             "disponible_fisico": True,
-            "archivo_interno": "ci134.pdf",
+            "archivo_interno": "",
             "imagen_portada": "ci134.jpg"
         },
         {
@@ -302,7 +302,7 @@ if "libros_db" not in st.session_state:
             "autor": "Maria Fernanda Paz Castillo",
             "genero": "Literatura Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "li135.pdf",
+            "archivo_interno": "",
             "imagen_portada": "li135.jpg"
         },
          {
@@ -311,7 +311,7 @@ if "libros_db" not in st.session_state:
             "autor": "Coleccion Muchos Animales Para Ver Y Nombrar",
             "genero": "Interactivo Estimulacion",
             "disponible_fisico": True,
-            "archivo_interno": "ie136.pdf",
+            "archivo_interno": "",
             "imagen_portada": "ie136.jpg"
         },
          {
@@ -320,7 +320,7 @@ if "libros_db" not in st.session_state:
             "autor": "Dante Alighieri",
             "genero": "Literatura Universal",
             "disponible_fisico": True,
-            "archivo_interno": "pe137.pdf",
+            "archivo_interno": "",
             "imagen_portada": "pe137.jpg"
         },
          {
@@ -329,7 +329,7 @@ if "libros_db" not in st.session_state:
             "autor": "Anna Lavatelli",
             "genero": "Novela Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "ni138.pdf",
+            "archivo_interno": "",
             "imagen_portada": "ni138.jpg"
         },
          {
@@ -338,7 +338,7 @@ if "libros_db" not in st.session_state:
             "autor": "Guy De Mau Passant",
             "genero": "Relatos Clasicos Francese",
             "disponible_fisico": True,
-            "archivo_interno": "rc139.pdf",
+            "archivo_interno": "",
             "imagen_portada": "rc139.jpg"
         },
          {
@@ -347,7 +347,7 @@ if "libros_db" not in st.session_state:
             "autor": "Gloria Villaraza Guzman",
             "genero": "Cuento Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "li140.pdf",
+            "archivo_interno": "",
             "imagen_portada": "li140.jpg"
         },
          {
@@ -356,7 +356,7 @@ if "libros_db" not in st.session_state:
             "autor": "Victoria Anonuevo",
             "genero": "Cuento Tradicional",
             "disponible_fisico": True,
-            "archivo_interno": "ct141.pdf",
+            "archivo_interno": "",
             "imagen_portada": "ct141.jpg"
         },
         {
@@ -365,7 +365,7 @@ if "libros_db" not in st.session_state:
             "autor": "Avril Rowlands",
             "genero": "infantil",
             "disponible_fisico": True,
-            "archivo_interno": "i142.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i142.jpg"
         },
         {
@@ -374,7 +374,7 @@ if "libros_db" not in st.session_state:
             "autor": "Gloria Villaraza Guzman",
             "genero": "Infantil, bilingüe",
             "disponible_fisico": True,
-            "archivo_interno": "i143.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i143.jpg"
         },
         {
@@ -383,7 +383,7 @@ if "libros_db" not in st.session_state:
             "autor": "Lin Acacio Flores",
             "genero": "Educativo, bilingüe",
             "disponible_fisico": True,
-            "archivo_interno": "e144.pdf",
+            "archivo_interno": "",
             "imagen_portada": "e144.jpg"
         },
         {
@@ -392,7 +392,7 @@ if "libros_db" not in st.session_state:
             "autor": "Equipo Medico Y Comunicaciones Fundacion Valle Del Lili",
             "genero": "Educativo",
             "disponible_fisico": True,
-            "archivo_interno": "e145.pdf",
+            "archivo_interno": "",
             "imagen_portada": "e145.jpg"
         },
          {
@@ -401,7 +401,7 @@ if "libros_db" not in st.session_state:
             "autor": "Dorothea Deprisco Wang",
             "genero": "Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "i146.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i146.jpg"
         },
         {
@@ -410,7 +410,7 @@ if "libros_db" not in st.session_state:
             "autor": "Hans Christian Andersen",
             "genero": "Literatura Clasica Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "i147.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i147.jpg"
         },
         {
@@ -419,7 +419,7 @@ if "libros_db" not in st.session_state:
             "autor": "Hernan Garrido Lecca",
             "genero": "Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "i148.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i148.jpg"
         },
         {
@@ -428,7 +428,7 @@ if "libros_db" not in st.session_state:
             "autor": "Ludmila Zeman",
             "genero": "Mitologia Y Leyendas",
             "disponible_fisico": True,
-            "archivo_interno": "ml149.pdf",
+            "archivo_interno": "",
             "imagen_portada": "ml149.jpg"
         },
          {
@@ -437,7 +437,7 @@ if "libros_db" not in st.session_state:
             "autor": "Victoria Añonuevo",
             "genero": "Infantil Bilingüe",
             "disponible_fisico": True,
-            "archivo_interno": "i150.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i150.jpg"
         },
          {
@@ -446,7 +446,7 @@ if "libros_db" not in st.session_state:
             "autor": "Clare Hibbert",
             "genero": "Ciencia Ficcion",
             "disponible_fisico": True,
-            "archivo_interno": "cf151.pdf",
+            "archivo_interno": "",
             "imagen_portada": "cf151.jpg"
         },
          {
@@ -455,7 +455,7 @@ if "libros_db" not in st.session_state:
             "autor": "Dr, Dale Bredesen",
             "genero": "Guia Medica",
             "disponible_fisico": True,
-            "archivo_interno": "gm152.pdf",
+            "archivo_interno": "",
             "imagen_portada": "gm152.jpg"
         },
         {
@@ -464,7 +464,7 @@ if "libros_db" not in st.session_state:
             "autor": "Melvin Burgess",
             "genero": "Ficcion Dramática",
             "disponible_fisico": True,
-            "archivo_interno": "fd153.pdf",
+            "archivo_interno": "",
             "imagen_portada": "fd153.jpg"
         },
          {
@@ -473,7 +473,7 @@ if "libros_db" not in st.session_state:
             "autor": "Jean Rhys",
             "genero": "Ficcion Historica",
             "disponible_fisico": True,
-            "archivo_interno": "fh154.pdf",
+            "archivo_interno": "",
             "imagen_portada": "fh154.jpg"
         },
          {
@@ -482,7 +482,7 @@ if "libros_db" not in st.session_state:
             "autor": "Ramon Fonseca Mora",
             "genero": "Drama",
             "disponible_fisico": True,
-            "archivo_interno": "d155.pdf",
+            "archivo_interno": "",
             "imagen_portada": "d155.jpg"
         },
          {
@@ -491,7 +491,7 @@ if "libros_db" not in st.session_state:
             "autor": "Felipe Martinez Cuellar",
             "genero": "Ficcion",
             "disponible_fisico": True,
-            "archivo_interno": "f156.pdf",
+            "archivo_interno": "",
             "imagen_portada": "f156.jpg"
         },
          {
@@ -500,7 +500,7 @@ if "libros_db" not in st.session_state:
             "autor": "Jorge Gaitan Duran",
             "genero": "Poesia, Ensayo",
             "disponible_fisico": True,
-            "archivo_interno": "pe157.pdf",
+            "archivo_interno": "",
             "imagen_portada": "pe157.jpg"
         },
          {
@@ -509,7 +509,7 @@ if "libros_db" not in st.session_state:
             "autor": "Carlos Cuauhtemoc Sanchez",
             "genero": "Autoayuda, Valores",
             "disponible_fisico": True,
-            "archivo_interno": "av158.pdf",
+            "archivo_interno": "",
             "imagen_portada": "av158.jpg"
         },
          {
@@ -518,7 +518,7 @@ if "libros_db" not in st.session_state:
             "autor": "Charles Dickens",
             "genero": "Ficcion Clasica",
             "disponible_fisico": True,
-            "archivo_interno": "fc159.pdf",
+            "archivo_interno": "",
             "imagen_portada": "fc159.jpg"
         },
         {
@@ -527,7 +527,7 @@ if "libros_db" not in st.session_state:
             "autor": "Anabel Saiz Ripoll",
             "genero": "Ficcion Historica",
             "disponible_fisico": True,
-            "archivo_interno": "fh160.pdf",
+            "archivo_interno": "",
             "imagen_portada": "fh160.jpg"
         },
          {
@@ -536,7 +536,7 @@ if "libros_db" not in st.session_state:
             "autor": "Ministerio de Comercio, Industria y Turismo",
             "genero": "Turismo",
             "disponible_fisico": True,
-            "archivo_interno": "t161.pdf",
+            "archivo_interno": "",
             "imagen_portada": "t161.jpg"
         },
          {
@@ -545,7 +545,7 @@ if "libros_db" not in st.session_state:
             "autor": "Peter Denne Bart ",
             "genero": "Ficcion",
             "disponible_fisico": True,
-            "archivo_interno": "f162.pdf",
+            "archivo_interno": "",
             "imagen_portada": "f162.jpg"
         },
          {
@@ -554,7 +554,7 @@ if "libros_db" not in st.session_state:
             "autor": "Editorial Pedagogico,Varios Autores",
             "genero": "Educativo",
             "disponible_fisico": True,
-            "archivo_interno": "e163.pdf",
+            "archivo_interno": "",
             "imagen_portada": "e163.jpg"
         },
          {
@@ -563,7 +563,7 @@ if "libros_db" not in st.session_state:
             "autor": "Mario Lodi",
             "genero": "Fabula",
             "disponible_fisico": True,
-            "archivo_interno": "f164.pdf",
+            "archivo_interno": "",
             "imagen_portada": "f164.jpg"
         },
          {
@@ -572,7 +572,7 @@ if "libros_db" not in st.session_state:
             "autor": "Jose Eustasio Rivera",
             "genero": "Realismo Social",
             "disponible_fisico": True,
-            "archivo_interno": "rs165.pdf",
+            "archivo_interno": "",
             "imagen_portada": "rs165.jpg"
         },
          {
@@ -581,7 +581,7 @@ if "libros_db" not in st.session_state:
             "autor": "Raymond Chandler",
             "genero": "Ficcion Policiaca",
             "disponible_fisico": True,
-            "archivo_interno": "fp166.pdf",
+            "archivo_interno": "",
             "imagen_portada": "fp166.jpg"
         },
          {
@@ -590,7 +590,7 @@ if "libros_db" not in st.session_state:
             "autor": "E. M. Nathanson",
             "genero": "Novela Belica",
             "disponible_fisico": True,
-            "archivo_interno": "nb167.pdf",
+            "archivo_interno": "",
             "imagen_portada": "nb167.jpg"
         },
          {
@@ -599,7 +599,7 @@ if "libros_db" not in st.session_state:
             "autor": "D, H. Lawrence",
             "genero": "Novela Politica",
             "disponible_fisico": True,
-            "archivo_interno": "np168.pdf",
+            "archivo_interno": "",
             "imagen_portada": "np168.jpg"
         },
          {
@@ -608,7 +608,7 @@ if "libros_db" not in st.session_state:
             "autor": "Carson McCullers",
             "genero": "Ficcion Psicologica",
             "disponible_fisico": True,
-            "archivo_interno": "fp169.pdf",
+            "archivo_interno": "",
             "imagen_portada": "fp169.jpg"
         },
          {
@@ -617,7 +617,7 @@ if "libros_db" not in st.session_state:
             "autor": "Robert Swindells",
             "genero": "Ficcion Juvenil",
             "disponible_fisico": True,
-            "archivo_interno": "fj170.pdf",
+            "archivo_interno": "",
             "imagen_portada": "fj170.jpg"
         },
         {
@@ -626,7 +626,7 @@ if "libros_db" not in st.session_state:
             "autor": "Alfredo Molano Bravo",
             "genero": "Crónica Periodística",
             "disponible_fisico": True,
-            "archivo_interno": "cp171.pdf",
+            "archivo_interno": "",
             "imagen_portada": "cp171.jpg"
         },
          {
@@ -635,7 +635,7 @@ if "libros_db" not in st.session_state:
             "autor": "Conchita Penilla Cespedes",
             "genero": "Literatura Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "li172.pdf",
+            "archivo_interno": "",
             "imagen_portada": "li172.jpg"
         },
          {
@@ -644,7 +644,7 @@ if "libros_db" not in st.session_state:
             "autor": "Flor Romero",
             "genero": "Mitologia, Leyendas",
             "disponible_fisico": True,
-            "archivo_interno": "ml173.pdf",
+            "archivo_interno": "",
             "imagen_portada": "ml173.jpg"
         },
          {
@@ -653,7 +653,7 @@ if "libros_db" not in st.session_state:
             "autor": "Editorial Santillana",
             "genero": "Educativo",
             "disponible_fisico": True,
-            "archivo_interno": "e174.pdf",
+            "archivo_interno": "",
             "imagen_portada": "e174.jpg"
         },
          {
@@ -662,7 +662,7 @@ if "libros_db" not in st.session_state:
             "autor": "Editorial Santillana",
             "genero": "Educativo",
             "disponible_fisico": True,
-            "archivo_interno": "e175.pdf",
+            "archivo_interno": "",
             "imagen_portada": "e175.jpg"
         },
          {
@@ -671,7 +671,7 @@ if "libros_db" not in st.session_state:
             "autor": "Equipo Editorial Santillana",
             "genero": "Educativo",
             "disponible_fisico": True,
-            "archivo_interno": "e176.pdf",
+            "archivo_interno": "",
             "imagen_portada": "e176.jpg"
         },
          {
@@ -680,7 +680,7 @@ if "libros_db" not in st.session_state:
             "autor": "Nathaniel Hawthorne",
             "genero": "Literatura Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "li177.pdf",
+            "archivo_interno": "",
             "imagen_portada": "li177.jpg"
         },
          {
@@ -689,7 +689,7 @@ if "libros_db" not in st.session_state:
             "autor": "Homero",
             "genero": "Mitologia Clásica",
             "disponible_fisico": True,
-            "archivo_interno": "mc178.pdf",
+            "archivo_interno": "",
             "imagen_portada": "mc178.jpg"
         },
          {
@@ -698,7 +698,7 @@ if "libros_db" not in st.session_state:
             "autor": "Robert Kiyosaki con Sharon Lechter",
             "genero": "Autoayuda",
             "disponible_fisico": True,
-            "archivo_interno": "a179.pdf",
+            "archivo_interno": "",
             "imagen_portada": "a179.jpg"
         },
          {
@@ -707,7 +707,7 @@ if "libros_db" not in st.session_state:
             "autor": "Pascal Bruckner",
             "genero": "Ensayo Politico",
             "disponible_fisico": True,
-            "archivo_interno": "ep180.pdf",
+            "archivo_interno": "",
             "imagen_portada": "ep180.jpg"
         },
          {
@@ -716,7 +716,7 @@ if "libros_db" not in st.session_state:
             "autor": "Sawako Arriyoshi",
             "genero": "Ficcion Historica",
             "disponible_fisico": True,
-            "archivo_interno": "fh181.pdf",
+            "archivo_interno": "",
             "imagen_portada": "fh181.jpg"
         },
          {
@@ -725,7 +725,7 @@ if "libros_db" not in st.session_state:
             "autor": "Adolfo Mendez Vides",
             "genero": "Novela Contemporanea",
             "disponible_fisico": True,
-            "archivo_interno": "nc182.pdf",
+            "archivo_interno": "",
             "imagen_portada": "nc182.jpg"
         },
          {
@@ -734,7 +734,7 @@ if "libros_db" not in st.session_state:
             "autor": "J.R.R. Tolkien",
             "genero": "Fantasia",
             "disponible_fisico": True,
-            "archivo_interno": "f103.pdf",
+            "archivo_interno": "",
             "imagen_portada": "f103.jpg"
         },
          {
@@ -743,7 +743,7 @@ if "libros_db" not in st.session_state:
             "autor": "J.k. Rowling",
             "genero": "Fantasia",
             "disponible_fisico": True,
-            "archivo_interno": "f183.pdf",
+            "archivo_interno": "",
             "imagen_portada": "f183.jpg"
         },
          {
@@ -752,7 +752,7 @@ if "libros_db" not in st.session_state:
             "autor": "Alonso Salazar J.",
             "genero": "Cronica Periodistica",
             "disponible_fisico": True,
-            "archivo_interno": "cr184.pdf",
+            "archivo_interno": "",
             "imagen_portada": "cr184.jpg"
         },
          {
@@ -761,7 +761,7 @@ if "libros_db" not in st.session_state:
             "autor": "Ivan Herrera Orsi",
             "genero": "Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "i185.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i185.jpg"
         },
          {
@@ -770,7 +770,7 @@ if "libros_db" not in st.session_state:
             "autor": "Mayra Alejandra Fuentes Rodriguez & Lizneira Roncancio Arias",
             "genero": "Turismo",
             "disponible_fisico": True,
-            "archivo_interno": "t186.pdf",
+            "archivo_interno": "",
             "imagen_portada": "t186.jpg"
         },
          {
@@ -779,7 +779,7 @@ if "libros_db" not in st.session_state:
             "autor": "Julio Cesar Poveda",
             "genero": "Educativo",
             "disponible_fisico": True,
-            "archivo_interno": "e187.pdf",
+            "archivo_interno": "",
             "imagen_portada": "e187.jpg"
         },
          {   
@@ -788,7 +788,7 @@ if "libros_db" not in st.session_state:
             "autor": "Disney(El Gato de Hojalata)",
             "genero": "Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "i188.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i188.jpg"
         },
          {
@@ -797,7 +797,7 @@ if "libros_db" not in st.session_state:
             "autor": "Juan Gomez",
             "genero": "Literatura Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "li189.pdf",
+            "archivo_interno": "",
             "imagen_portada": "li189.jpg"
         },
          {
@@ -806,7 +806,7 @@ if "libros_db" not in st.session_state:
             "autor": "Philip Ward",
             "genero": "Literatura de Viajes",
             "disponible_fisico": True,
-            "archivo_interno": "lv190.pdf",
+            "archivo_interno": "",
             "imagen_portada": "lv190.jpg"
         },
          {
@@ -815,7 +815,7 @@ if "libros_db" not in st.session_state:
             "autor": "Equipo Pedagogico Editorial Norma",
             "genero": "Educativo",
             "disponible_fisico": True,
-            "archivo_interno": "e191.pdf",
+            "archivo_interno": "",
             "imagen_portada": "e191.jpg"
         },
          {
@@ -824,7 +824,7 @@ if "libros_db" not in st.session_state:
             "autor": "Equipo Pedagogico Editorial Norma",
             "genero": "Educativo",
             "disponible_fisico": True,
-            "archivo_interno": "e192.pdf",
+            "archivo_interno": "",
             "imagen_portada": "e192.jpg"
         },
          {
@@ -833,7 +833,7 @@ if "libros_db" not in st.session_state:
             "autor": "Fiona Beddall & Megan Roderick",
             "genero": "Educativo",
             "disponible_fisico": True,
-            "archivo_interno": "e193.pdf",
+            "archivo_interno": "",
             "imagen_portada": "e193.jpg"
         },
          {
@@ -842,7 +842,7 @@ if "libros_db" not in st.session_state:
             "autor": "Equipo Editorial Santillana",
             "genero": "Educativo",
             "disponible_fisico": True,
-            "archivo_interno": "e194.pdf",
+            "archivo_interno": "",
             "imagen_portada": "e194.jpg"
         },
          {
@@ -851,7 +851,7 @@ if "libros_db" not in st.session_state:
             "autor": "Equipo Editorial Santillana",
             "genero": "Educativo",
             "disponible_fisico": True,
-            "archivo_interno": "e195.pdf",
+            "archivo_interno": "",
             "imagen_portada": "e195.jpg"
         },
          {
@@ -860,7 +860,7 @@ if "libros_db" not in st.session_state:
             "autor": "Anonimo",
             "genero": "Narrativa Clasica",
             "disponible_fisico": True,
-            "archivo_interno": "nc196.pdf",
+            "archivo_interno": "",
             "imagen_portada": "nc196.jpg"
         },
          {
@@ -869,7 +869,7 @@ if "libros_db" not in st.session_state:
             "autor": "Ramon Garcia Dominguez",
             "genero": "Literatura Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "li197.pdf",
+            "archivo_interno": "",
             "imagen_portada": "li197.jpg"
         },
          {
@@ -878,7 +878,7 @@ if "libros_db" not in st.session_state:
             "autor": "Kimberly Willis Holt",
             "genero": "Literatura Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "li198.pdf",
+            "archivo_interno": "",
             "imagen_portada": "li198.jpg"
         },
          {
@@ -887,7 +887,7 @@ if "libros_db" not in st.session_state:
             "autor": "Equipo Didactico Leapfrog Enterprise",
             "genero": "Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "i199.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i199.jpg"
         },
          {
@@ -896,7 +896,7 @@ if "libros_db" not in st.session_state:
             "autor": "Roald Dahl",
             "genero": "Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "i200.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i200.jpg"
         },
          {
@@ -905,7 +905,7 @@ if "libros_db" not in st.session_state:
             "autor": "Mary Pope Osborne",
             "genero": "Mitologia",
             "disponible_fisico": True,
-            "archivo_interno": "m201.pdf",
+            "archivo_interno": "",
             "imagen_portada": "m201.jpg"
         },
          {
@@ -914,7 +914,7 @@ if "libros_db" not in st.session_state:
             "autor": "Miguel De Cervantes Saavedra",
             "genero": "Literatura Clasica",
             "disponible_fisico": True,
-            "archivo_interno": "lc202.pdf",
+            "archivo_interno": "",
             "imagen_portada": "lc202.jpg"
         },
          {
@@ -923,7 +923,7 @@ if "libros_db" not in st.session_state:
             "autor": "Jonathan Y Angela Scott",
             "genero": "Divulgacion Cientifica",
             "disponible_fisico": True,
-            "archivo_interno": "dc203.pdf",
+            "archivo_interno": "",
             "imagen_portada": "dc203.jpg"
         },
          {
@@ -932,7 +932,7 @@ if "libros_db" not in st.session_state:
             "autor": "Walt Disney",
             "genero": "Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "i204.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i204.jpg"
         },
          {
@@ -941,7 +941,7 @@ if "libros_db" not in st.session_state:
             "autor": "Semira Thoumi",
             "genero": "Pedagogia",
             "disponible_fisico": True,
-            "archivo_interno": "p205.pdf",
+            "archivo_interno": "",
             "imagen_portada": "p205.jpg"
         },
          {
@@ -950,7 +950,7 @@ if "libros_db" not in st.session_state:
             "autor": "Editorial Zamora",
             "genero": "Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "i206.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i206.jpg"
         },
          {
@@ -959,7 +959,7 @@ if "libros_db" not in st.session_state:
             "autor": "Timothy Cooney Co-Autor Scott Fresman",
             "genero": "Educativo",
             "disponible_fisico": True,
-            "archivo_interno": "e207.pdf",
+            "archivo_interno": "",
             "imagen_portada": "e207.jpg"
         },
          {
@@ -968,7 +968,7 @@ if "libros_db" not in st.session_state:
             "autor": "Editorial Zamora",
             "genero": "Educativo",
             "disponible_fisico": True,
-            "archivo_interno": "e208.pdf",
+            "archivo_interno": "",
             "imagen_portada": "e208.jpg"
         },
          {
@@ -977,7 +977,7 @@ if "libros_db" not in st.session_state:
             "autor": "Susanne Conrad Y Eva Montanari",
             "genero": "Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "i209.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i209.jpg"
         },
          {
@@ -986,7 +986,7 @@ if "libros_db" not in st.session_state:
             "autor": "Augie D. Rivera, Jr",
             "genero": "Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "i210.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i210.jpg"
         },
          {
@@ -995,7 +995,7 @@ if "libros_db" not in st.session_state:
             "autor": "Editorial Zamora",
             "genero": "Educativo",
             "disponible_fisico": True,
-            "archivo_interno": "e211.pdf",
+            "archivo_interno": "",
             "imagen_portada": "e211.jpg"
         },
          {
@@ -1004,7 +1004,7 @@ if "libros_db" not in st.session_state:
             "autor": "Colectivo( Gobernacion Del Valle Del Cauca-Diario Del Pais)",
             "genero": "Educativo",
             "disponible_fisico": True,
-            "archivo_interno": "e212.pdf",
+            "archivo_interno": "",
             "imagen_portada": "e212.jpg"
         },
          {
@@ -1013,7 +1013,7 @@ if "libros_db" not in st.session_state:
             "autor": "Anonimo",
             "genero": "Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "i213.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i213.jpg"
         },
          {
@@ -1022,7 +1022,7 @@ if "libros_db" not in st.session_state:
             "autor": "Gustavo De Lorza Martinez",
             "genero": "Educativo",
             "disponible_fisico": True,
-            "archivo_interno": "e214.pdf",
+            "archivo_interno": "",
             "imagen_portada": "e214.jpg"
         },
          {
@@ -1031,7 +1031,7 @@ if "libros_db" not in st.session_state:
             "autor": "Varios Autores",
             "genero": "Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "i215.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i215.jpg"
         },
          {
@@ -1040,7 +1040,7 @@ if "libros_db" not in st.session_state:
             "autor": "Angela Posada-Swafford",
             "genero": "Ciencia Ficcion",
             "disponible_fisico": True,
-            "archivo_interno": "cf216.pdf",
+            "archivo_interno": "",
             "imagen_portada": "cf216.jpg"
         },
          {
@@ -1049,7 +1049,7 @@ if "libros_db" not in st.session_state:
             "autor": "Angela Sommer-Bodenburg",
             "genero": "Fantasia",
             "disponible_fisico": True,
-            "archivo_interno": "f217.pdf",
+            "archivo_interno": "",
             "imagen_portada": "f217.jpg"
         },
          {
@@ -1058,7 +1058,7 @@ if "libros_db" not in st.session_state:
             "autor": "Yolanda Reyes",
             "genero": "Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "i218.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i218.jpg"
         },
          {
@@ -1067,7 +1067,7 @@ if "libros_db" not in st.session_state:
             "autor": "Yolanda Reyes",
             "genero": "Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "i219.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i219.jpg"
         },
          {
@@ -1076,7 +1076,7 @@ if "libros_db" not in st.session_state:
             "autor": "Pierre-Marie Beaude",
             "genero": "Novela Juvenil",
             "disponible_fisico": True,
-            "archivo_interno": "nj220.pdf",
+            "archivo_interno": "",
             "imagen_portada": "nj220.jpg"
         },
          {
@@ -1085,7 +1085,7 @@ if "libros_db" not in st.session_state:
             "autor": "Equipo Editorial Norma",
             "genero": "Educativo",
             "disponible_fisico": True,
-            "archivo_interno": "e221.pdf",
+            "archivo_interno": "",
             "imagen_portada": "e221.jpg"
         },
          {
@@ -1094,7 +1094,7 @@ if "libros_db" not in st.session_state:
             "autor": "Victor M. Almanza",
             "genero": "Narrativo",
             "disponible_fisico": True,
-            "archivo_interno": "n222.pdf",
+            "archivo_interno": "",
             "imagen_portada": "n222.jpg"
         },
          {
@@ -1103,7 +1103,7 @@ if "libros_db" not in st.session_state:
             "autor": "Edna Iturrable",
             "genero": "Narrativo",
             "disponible_fisico": True,
-            "archivo_interno": "n223.pdf",
+            "archivo_interno": "",
             "imagen_portada": "n223.jpg"
         },
          {
@@ -1112,7 +1112,7 @@ if "libros_db" not in st.session_state:
             "autor": "Terry Deary",
             "genero": "Informativo",
             "disponible_fisico": True,
-            "archivo_interno": "i224.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i224.jpg"
         },
          {
@@ -1121,7 +1121,7 @@ if "libros_db" not in st.session_state:
             "autor": "Miguel Fernando Caro Gamboa",
             "genero": "Didactico",
             "disponible_fisico": True,
-            "archivo_interno": "d225.pdf",
+            "archivo_interno": "",
             "imagen_portada": "d225.jpg"
         },
          {
@@ -1130,7 +1130,7 @@ if "libros_db" not in st.session_state:
             "autor": "Jordi Sierra i Fabra",
             "genero": "Narrativo",
             "disponible_fisico": True,
-            "archivo_interno": "n226.pdf",
+            "archivo_interno": "",
             "imagen_portada": "n226.jpg"
         },
          {
@@ -1139,7 +1139,7 @@ if "libros_db" not in st.session_state:
             "autor": "Gabriele Clima",
             "genero": "Novela Juvenil",
             "disponible_fisico": True,
-            "archivo_interno": "nj227.pdf",
+            "archivo_interno": "",
             "imagen_portada": "nj227.jpg"
         },
          {
@@ -1148,7 +1148,7 @@ if "libros_db" not in st.session_state:
             "autor": "Christobel Mattingley",
             "genero": "Narrativo",
             "disponible_fisico": True,
-            "archivo_interno": "n228.pdf",
+            "archivo_interno": "",
             "imagen_portada": "n228.jpg"
         },
          {
@@ -1157,7 +1157,7 @@ if "libros_db" not in st.session_state:
             "autor": "Jordi Sierra i Fabra",
             "genero": "Narrativo",
             "disponible_fisico": True,
-            "archivo_interno": "n229.pdf",
+            "archivo_interno": "",
             "imagen_portada": "n229.jpg"
         },
          {
@@ -1166,7 +1166,7 @@ if "libros_db" not in st.session_state:
             "autor": "Disney",
             "genero": "Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "i230.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i230.jpg"
         },
          {
@@ -1175,7 +1175,7 @@ if "libros_db" not in st.session_state:
             "autor": "Anonimo",
             "genero": "Narrativo",
             "disponible_fisico": True,
-            "archivo_interno": "n231.pdf",
+            "archivo_interno": "",
             "imagen_portada": "n231.jpg"
         },
          {
@@ -1184,7 +1184,7 @@ if "libros_db" not in st.session_state:
             "autor": "Michael Ende",
             "genero": "Novela Juvenil",
             "disponible_fisico": True,
-            "archivo_interno": "nj232.pdf",
+            "archivo_interno": "",
             "imagen_portada": "nj232.jpg"
         },
          {
@@ -1193,7 +1193,7 @@ if "libros_db" not in st.session_state:
             "autor": "Charles Perrault",
             "genero": "Narrativo",
             "disponible_fisico": True,
-            "archivo_interno": "n233.pdf",
+            "archivo_interno": "",
             "imagen_portada": "n233.jpg"
         },
          {
@@ -1202,7 +1202,7 @@ if "libros_db" not in st.session_state:
             "autor": "Charles Perrault",
             "genero": "Infantil",
             "disponible_fisico": True,
-            "archivo_interno": "i234.pdf",
+            "archivo_interno": "",
             "imagen_portada": "i234.jpg"
         },
          {
@@ -1211,7 +1211,7 @@ if "libros_db" not in st.session_state:
             "autor": "Ediciones Gamma",
             "genero": "Didactico",
             "disponible_fisico": True,
-            "archivo_interno": "d235.pdf",
+            "archivo_interno": "",
             "imagen_portada": "d235.jpg"
         },
          {
@@ -1220,7 +1220,7 @@ if "libros_db" not in st.session_state:
             "autor": "Editores Zamora",
             "genero": "Didactico",
             "disponible_fisico": True,
-            "archivo_interno": "d236.pdf",
+            "archivo_interno": "",
             "imagen_portada": "d236.jpg"
         },
          {
@@ -1229,7 +1229,7 @@ if "libros_db" not in st.session_state:
             "autor": "Anonimo",
             "genero": "Narrativo",
             "disponible_fisico": True,
-            "archivo_interno": "n237.pdf",
+            "archivo_interno": "",
             "imagen_portada": "n237.jpg"
         },
          {
@@ -1238,7 +1238,7 @@ if "libros_db" not in st.session_state:
             "autor": "Editorial Zamora",
             "genero": "Narrativo",
             "disponible_fisico": True,
-            "archivo_interno": "n238.pdf",
+            "archivo_interno": "",
             "imagen_portada": "n238.jpg"
         },
          {
@@ -1412,5 +1412,5 @@ else:
                             st.image(img_rel[0], use_container_width=True)
                         st.markdown(f"**{rel['titulo']}**")
                         st.caption(rel["autor"])
-                else:
-                 st.warning(f"❌ No encontramos ningún libro que coincida con '{busqueda}' en este género.")
+    else:
+        st.warning(f"❌ No encontramos ningún libro que coincida con '{busqueda}' en este género.")
