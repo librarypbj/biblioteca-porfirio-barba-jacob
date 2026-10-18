@@ -1241,6 +1241,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "n238.pdf",
             "imagen_portada": "n238.jpg"
         },
+         {
+            "codigo": "f239",
+            "titulo": "1984",
+            "autor": "George Orwell",
+            "genero": "Ficcion",
+            "disponible_fisico": False,
+            "archivo_interno": "f239.pdf",
+            "imagen_portada": "f239.jpg"
+        },
          
  ]
     
