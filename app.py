@@ -1385,6 +1385,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "n254.jpg"
         },
+         {
+            "codigo": "n255",
+            "titulo": "El Pequeño Nicolas",
+            "autor": "Sempe/Goscinny",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "n255.jpg"
+        },
  ]
     
 
