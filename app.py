@@ -1439,6 +1439,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "i260.jpg"
         },
+         {
+            "codigo": "n261",
+            "titulo": "The Wind Singer",
+            "autor": "William Nicholson",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "n261.jpg"
+        },
  ]
     
 
