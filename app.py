@@ -1394,6 +1394,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "n255.jpg"
         },
+         {
+            "codigo": "d256",
+            "titulo": "Idioma Español 6:Comunicacion Y Lenguaje",
+            "autor": "Editorial Susaeta",
+            "genero": "Didactico",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "d256.jpg"
+        },
  ]
     
 
