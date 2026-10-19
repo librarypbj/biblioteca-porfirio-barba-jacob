@@ -1322,6 +1322,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "d247.jpg"
         },
+         {
+            "codigo": "i248",
+            "titulo": "I Wonder Why Kangaroos Have Pouches",
+            "autor": "Anonimo",
+            "genero": "Informativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "i248.jpg"
+        },
  ]
     
 
