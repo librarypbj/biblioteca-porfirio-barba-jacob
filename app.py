@@ -1304,6 +1304,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "d245.jpg"
         },
+         {
+            "codigo": "n246",
+            "titulo": "El Duende Y Yo:Cuentos, Recuerdos Y Fantasias",
+            "autor": "Alberto Jose Holguin Zamorano",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "n246.jpg"
+        },
  ]
     
 
