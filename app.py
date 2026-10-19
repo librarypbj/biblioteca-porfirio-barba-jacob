@@ -1277,6 +1277,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "d242.jpg"
         },
+         {
+            "codigo": "n243",
+            "titulo": "Oh, The Places You'll Go!",
+            "autor": "Dr. Seuss Theodor Geisel",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "n243.jpg"
+        },
          
  ]
     
