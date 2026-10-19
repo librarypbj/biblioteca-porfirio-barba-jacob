@@ -1286,7 +1286,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "n243.jpg"
         },
-         
+         {
+            "codigo": "d244",
+            "titulo": "El Mundo Mgico Del Ingles(Ch-i)",
+            "autor": "Editorial Zamora",
+            "genero": "Didactico",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "d244.jpg"
+        },
  ]
     
 
