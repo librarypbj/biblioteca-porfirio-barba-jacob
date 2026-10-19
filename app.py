@@ -1448,6 +1448,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "n261.jpg"
         },
+         {
+            "codigo": "i262",
+            "titulo": "Horrible Histories:Woeful Second World War",
+            "autor": "Terry Deary",
+            "genero": "Informativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "i262.jpg"
+        },
  ]
     
 
