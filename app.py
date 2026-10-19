@@ -1421,6 +1421,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "d258.jpg"
         },
+         {
+            "codigo": "d259",
+            "titulo": "Appleton's New Cuyas Dictionary",
+            "autor": "The Grolier Society",
+            "genero": "Diccionario",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "d259.jpg"
+        },
  ]
     
 
