@@ -1295,6 +1295,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "d244.jpg"
         },
+         {
+            "codigo": "d245",
+            "titulo": "Jugando Con La Plastilina-Seres Fantasticos Y Prehistoricos",
+            "autor": "Editora Cultural Internacional",
+            "genero": "Didactico",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "d245.jpg"
+        },
  ]
     
 
