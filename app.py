@@ -1331,6 +1331,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "i248.jpg"
         },
+         {
+            "codigo": "m249",
+            "titulo": "Los Heroes Y Los Dioses",
+            "autor": "Andres Montañez",
+            "genero": "Mitologia",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "m249.jpg"
+        },
  ]
     
 
