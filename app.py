@@ -1313,6 +1313,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "n246.jpg"
         },
+         {
+            "codigo": "d247",
+            "titulo": "Horacio Y Los Opuestos",
+            "autor": "Editorial Hola! Colina",
+            "genero": "Didactico",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "d247.jpg"
+        },
  ]
     
 
