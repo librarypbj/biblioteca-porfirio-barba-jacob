@@ -1250,6 +1250,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "f239.pdf",
             "imagen_portada": "f239.jpg"
         },
+         {
+            "codigo": "d240",
+            "titulo": "Comunicacion Y Lenguaje 6",
+            "autor": "Editorial Susaeta",
+            "genero": "Didactico",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "d240.jpg"
+        },
          
  ]
     
