@@ -1403,6 +1403,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "d256.jpg"
         },
+         {
+            "codigo": "l257",
+            "titulo": "Antologia Poetica",
+            "autor": "Miguel Hernandez",
+            "genero": "Lirico",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "l257.jpg"
+        },
  ]
     
 
