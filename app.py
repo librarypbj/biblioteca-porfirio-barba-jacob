@@ -1475,6 +1475,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "i264.jpg"
         },
+         {
+            "codigo": "i265",
+            "titulo": "Horrible Histories:Gorgeous Georgians",
+            "autor": "Terry Deary",
+            "genero": "Informativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "i265.jpg"
+        },
  ]
     
 
