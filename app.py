@@ -1412,6 +1412,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "l257.jpg"
         },
+         {
+            "codigo": "d258",
+            "titulo": "Avanza Lenguaje 11:Guia Para Docentes",
+            "autor": "Editorial Norma",
+            "genero": "Didactico",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "d258.jpg"
+        },
  ]
     
 
