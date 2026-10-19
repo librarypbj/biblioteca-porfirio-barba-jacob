@@ -1367,6 +1367,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "n252.jpg"
         },
+         {
+            "codigo": "e253",
+            "titulo": "El Contacto Social",
+            "autor": "Jean Jacques Rousseau",
+            "genero": "Ensayo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "e253.jpg"
+        },
  ]
     
 
