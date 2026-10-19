@@ -1268,6 +1268,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "f241.jpg"
         },
+         {
+            "codigo": "d242",
+            "titulo": "Mi Jardin:Enciclopedia-Infantil",
+            "autor": "Editorial Zamora",
+            "genero": "Didactico",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "d242.jpg"
+        },
          
  ]
     
