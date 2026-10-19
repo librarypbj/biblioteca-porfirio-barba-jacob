@@ -1259,6 +1259,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "d240.jpg"
         },
+         {
+            "codigo": "f241",
+            "titulo": "El Mundo Magico De Las Hadas",
+            "autor": "Roberto Rosaspini Reynolds",
+            "genero": "Fantasia",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "f241.jpg"
+        },
          
  ]
     
