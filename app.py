@@ -1565,6 +1565,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "i274.jpg"
         },
+         {
+            "codigo": "i275",
+            "titulo": "Horrible Hisories:Groovy Greeks",
+            "autor": "Terry Deary",
+            "genero": "Informativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "i275.jpg"
+        },
 
         
 
