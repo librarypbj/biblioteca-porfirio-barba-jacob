@@ -1547,6 +1547,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "i272.jpg"
         },
+         {
+            "codigo": "i273",
+            "titulo": "Horrible Histories:Cut-Throat Celts",
+            "autor": "Terry Deary",
+            "genero": "Informativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "i273.jpg"
+        },
 
         
 
