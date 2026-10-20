@@ -1493,6 +1493,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "i266.jpg"
         },
+         {
+            "codigo": "i267",
+            "titulo": "Horrible Histories:Measly Middle Ages",
+            "autor": "Terry Deary",
+            "genero": "Informativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "i267.jpg"
+        },
  ]
     
 
