@@ -1529,6 +1529,18 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "i270.jpg"
         },
+         {
+            "codigo": "i271",
+            "titulo": "Horrible Histories:Smashing Saxons",
+            "autor": "Terry Deary",
+            "genero": "Informativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "i271.jpg"
+       },
+
+        
+
  ]
     
 
