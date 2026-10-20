@@ -1484,6 +1484,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "i265.jpg"
         },
+         {
+            "codigo": "i266",
+            "titulo": "Horrible Histories:Terrible Tudors",
+            "autor": "Terry Deary & Neil Tongue",
+            "genero": "Informativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "i266.jpg"
+        },
  ]
     
 
