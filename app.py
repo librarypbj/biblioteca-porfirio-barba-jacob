@@ -1502,6 +1502,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "i267.jpg"
         },
+         {
+            "codigo": "i268",
+            "titulo": "Horrible Histories:Incredible Incas",
+            "autor": "Terry Deary",
+            "genero": "Informativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "i268.jpg"
+        },
  ]
     
 
