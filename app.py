@@ -1538,6 +1538,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "i271.jpg"
        },
+        {
+            "codigo": "i272",
+            "titulo": "Horrible Histories:Vicious Vikings",
+            "autor": "Terry Deary",
+            "genero": "Informativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "i272.jpg"
+        },
 
         
 
