@@ -1511,6 +1511,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "i268.jpg"
         },
+         {
+            "codigo": "i269",
+            "titulo": "Horrible Histories:Angry Aztecs",
+            "autor": "Terry Deary",
+            "genero": "Informativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "i269.jpg"
+        },
  ]
     
 
