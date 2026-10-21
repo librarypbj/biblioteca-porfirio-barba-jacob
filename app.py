@@ -1673,6 +1673,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "d286.jpg"
         },
+         {
+            "codigo": "i287",
+            "titulo": "Answers",
+            "autor": "Mother Meera",
+            "genero": "Informativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "i287.jpg"
+        },
 
         
 
