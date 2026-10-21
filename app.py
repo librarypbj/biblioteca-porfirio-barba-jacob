@@ -1826,6 +1826,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "n303.jpg"
         },
+         {
+            "codigo": "d304",
+            "titulo": "Diccionario De Sinonimos Y Antonimos(Tomo 9)",
+            "autor": "Educar Editores",
+            "genero": "Diccionario",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "d304.jpg"
+        },
 
         
 
