@@ -1592,6 +1592,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "n277.jpg"
         },
+         {
+            "codigo": "n278",
+            "titulo": "El Huevo De Colon",
+            "autor": "Ramon Garcia Dominguez",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "n278.jpg"
+        },
 
         
 
