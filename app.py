@@ -1835,6 +1835,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "d304.jpg"
         },
+         {
+            "codigo": "n305",
+            "titulo": "Tiempo Y Cosas",
+            "autor": "Azorin(Jose Martinez Ruiz)",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "n305.jpg"
+        },
 
         
 
