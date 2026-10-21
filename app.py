@@ -1736,6 +1736,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "n293.jpg"
         },
+         {
+            "codigo": "d294",
+            "titulo": "Roncar, roncar(Hala Y Observa)",
+            "autor": "Editorial Sin Fronteras",
+            "genero": "Didactico",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "d294.jpg"
+        },
 
         
 
