@@ -1727,6 +1727,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "n292.jpg"
         },
+         {
+            "codigo": "n293",
+            "titulo": "Los Carasucias",
+            "autor": "Libardo Duque Velez",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "n293.jpg"
+        },
 
         
 
