@@ -1682,6 +1682,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "i287.jpg"
         },
+         {
+            "codigo": "i288",
+            "titulo": "Transgenicos",
+            "autor": "Luke Anderson",
+            "genero": "Informativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "i288.jpg"
+        },
 
         
 
