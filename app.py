@@ -1619,6 +1619,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "f280.jpg"
         },
+         {
+            "codigo": "d281",
+            "titulo": "Nimba, La Nubecita Viajera",
+            "autor": "Anibal Tobon",
+            "genero": "Didactico",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "d281.jpg"
+        },
 
         
 
