@@ -1583,6 +1583,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "i276.jpg"
         },
+         {
+            "codigo": "n277",
+            "titulo": "El Principito",
+            "autor": "Antoine Desaint-Exupery",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "n277.jpg"
+        },
 
         
 
