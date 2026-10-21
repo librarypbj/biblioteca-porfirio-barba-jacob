@@ -1628,6 +1628,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "d281.jpg"
         },
+         {
+            "codigo": "i282",
+            "titulo": "Homicidio Y Compasion:La Eutanasia En Etica Clinica",
+            "autor": "Jean Francois Malherbe",
+            "genero": "Informativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "i282.jpg"
+        },
 
         
 
