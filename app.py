@@ -1601,6 +1601,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "n278.jpg"
         },
+         {
+            "codigo": "n279",
+            "titulo": "El Secuestro De Miss Blandish",
+            "autor": "J. Hadley Chase",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "n279.jpg"
+        },
 
         
 
