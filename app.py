@@ -1655,6 +1655,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "n284.jpg"
         },
+         {
+            "codigo": "d285",
+            "titulo": "Collins Pocket:Diccionario Español/Ingles/English/Spanish",
+            "autor": "Editorial Grijalbo",
+            "genero": "Diccionario",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "d285.jpg"
+        },
 
         
 
