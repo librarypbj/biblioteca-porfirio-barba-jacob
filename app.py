@@ -1637,6 +1637,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "i282.jpg"
         },
+         {
+            "codigo": "n283",
+            "titulo": "El Mejor Enemigo Del Mundo",
+            "autor": "Maria Fernanda Heredia",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "n283.jpg"
+        },
 
         
 
