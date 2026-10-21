@@ -1772,6 +1772,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "n297.jpg"
         },
+         {
+            "codigo": "p298",
+            "titulo": "Antologia De Poesia Colombiana Para Jovenes",
+            "autor": "Varios Autores",
+            "genero": "Poesia",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "p298.jpg"
+        },
 
         
 
