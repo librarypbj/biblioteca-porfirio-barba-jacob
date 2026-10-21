@@ -1610,6 +1610,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "n279.jpg"
         },
+         {
+            "codigo": "f280",
+            "titulo": "Esopo,Iriarte Y Samaniego",
+            "autor": "Esopo, Tomas Iriarte & Felix Samaniego",
+            "genero": "Fabula",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "f280.jpg"
+        },
 
         
 
