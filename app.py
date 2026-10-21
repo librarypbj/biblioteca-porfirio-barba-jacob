@@ -1664,6 +1664,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "d285.jpg"
         },
+         {
+            "codigo": "d286",
+            "titulo": "Diccionario Practico:Sinonimos Y Antonimos",
+            "autor": "Fernando Corripio",
+            "genero": "Diccionario",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "d286.jpg"
+        },
 
         
 
