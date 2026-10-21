@@ -1817,6 +1817,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "a302.jpg"
         },
+         {
+            "codigo": "n303",
+            "titulo": "El Lugar Mas Bonito Del Mundo",
+            "autor": "Ann Cameron",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "n303.jpg"
+        },
 
         
 
