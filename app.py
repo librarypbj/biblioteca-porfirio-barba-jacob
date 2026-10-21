@@ -1763,6 +1763,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "n296.jpg"
         },
+         {
+            "codigo": "n297",
+            "titulo": "Ida B",
+            "autor": "Katherine Hannigan",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "n297.jpg"
+        },
 
         
 
