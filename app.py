@@ -1808,6 +1808,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "i301.jpg"
         },
+         {
+            "codigo": "a302",
+            "titulo": "La Isla Del Tesoro",
+            "autor": "Robert Louis Stevenson",
+            "genero": "Aventuras",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "a302.jpg"
+        },
 
         
 
