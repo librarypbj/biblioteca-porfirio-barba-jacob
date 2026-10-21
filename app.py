@@ -1790,6 +1790,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "n299.jpg"
         },
+         {
+            "codigo": "i300",
+            "titulo": "For Girls Only:Wise Words, Good Advice",
+            "autor": "Carol Weston",
+            "genero": "Informativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "i300.jpg"
+        },
 
         
 
