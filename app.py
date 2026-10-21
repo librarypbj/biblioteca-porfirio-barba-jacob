@@ -1781,6 +1781,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "p298.jpg"
         },
+         {
+            "codigo": "n299",
+            "titulo": "No Somos Irrompibles(12 Cuentos De Chicos Enamorados)",
+            "autor": "Elsa Bornemann",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "n299.jpg"
+        },
 
         
 
