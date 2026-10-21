@@ -1574,6 +1574,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "i275.jpg"
         },
+         {
+            "codigo": "i276",
+            "titulo": "Horrible Histories: Barmy British Empire",
+            "autor": "Terry Deary",
+            "genero": "Informativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "i276.jpg"
+        },
 
         
 
