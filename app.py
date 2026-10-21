@@ -1646,6 +1646,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "n283.jpg"
         },
+         {
+            "codigo": "n284",
+            "titulo": "Cuentos De Susana",
+            "autor": "Francisco Montaña",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "n284.jpg"
+        },
 
         
 
