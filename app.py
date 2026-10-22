@@ -1853,6 +1853,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "n306.jpg"
         },
+         {
+            "codigo": "i307",
+            "titulo": "Los Objetos Fractales",
+            "autor": "Benoit Mandelbrot",
+            "genero": "Informativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "i307.jpg"
+        },
 
         
 
