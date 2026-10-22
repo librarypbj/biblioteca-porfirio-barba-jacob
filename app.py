@@ -1871,6 +1871,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "f308.jpg"
         },
+         {
+            "codigo": "n309",
+            "titulo": "Regeneration(Ingles)",
+            "autor": "Pat Barker",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "n309.jpg"
+        },
 
         
 
