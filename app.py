@@ -1844,6 +1844,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "n305.jpg"
         },
+         {
+            "codigo": "n306",
+            "titulo": "La Orquesta Submarina Y Otros Relatos Juveniles",
+            "autor": "Juan Fernando Merino",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "n306.jpg"
+        },
 
         
 
