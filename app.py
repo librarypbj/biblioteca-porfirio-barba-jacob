@@ -1907,6 +1907,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "f312.jpg"
         },
+         {
+            "codigo": "n313",
+            "titulo": "Querido Hijo:Estamos En Huelga",
+            "autor": "Jordi Sierra I Fabra",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "n313.jpg"
+        },
 
         
 
