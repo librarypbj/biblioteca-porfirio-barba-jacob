@@ -1862,6 +1862,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "i307.jpg"
         },
+         {
+            "codigo": "f308",
+            "titulo": "Lo Que Una Vez Hicieron Los Alienigenas",
+            "autor": "John Fotzgerald Torres",
+            "genero": "ficcion",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "f308.jpg"
+        },
 
         
 
