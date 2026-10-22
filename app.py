@@ -1880,6 +1880,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "n309.jpg"
         },
+         {
+            "codigo": "n310",
+            "titulo": "Aunt Julia And The Scriptwriter",
+            "autor": "Mario Vargas Llosa",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "n310.jpg"
+        },
 
         
 
