@@ -1890,13 +1890,13 @@ if "libros_db" not in st.session_state:
             "imagen_portada": "n310.jpg"
         },
          {
-            "codigo": "",
-            "titulo": "TÍTULO DEL LIBRO",
-            "autor": "NOMBRE DEL AUTOR",
-            "genero": "GÉNERO",
+            "codigo": "n311",
+            "titulo": "El Gran Salto",
+            "autor": "Jonathan Lee",
+            "genero": "Narrativo",
             "disponible_fisico": True,
             "archivo_interno": "",
-            "imagen_portada": "xx240.jpg"
+            "imagen_portada": "n311.jpg"
         },
 
         
