@@ -2069,6 +2069,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "e330.jpg"
         },
+         {
+            "codigo": "f331",
+            "titulo": "Star Wars:Han Solo-El Legado Perdido",
+            "autor": "Brian Daley",
+            "genero": "Ficcion",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "f331.jpg"
+        },
 
         
 
