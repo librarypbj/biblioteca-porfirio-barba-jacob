@@ -1979,6 +1979,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "r320.jpg"
         },
+         {
+            "codigo": "e321",
+            "titulo": "Enciclopedia Autodidactica Nuevo Milenio:Literatura Catellana",
+            "autor": "Editorial Zamora",
+            "genero": "Enciclopedia",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "e321.jpg"
+        },
 
         
 
