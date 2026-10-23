@@ -1961,6 +1961,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "a318.jpg"
         },
+         {
+            "codigo": "d319",
+            "titulo": "Colombia, Mi Abuelo Y Yo",
+            "autor": "Pilar Lozano",
+            "genero": "Didactico",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "d319.jpg"
+        },
 
         
 
