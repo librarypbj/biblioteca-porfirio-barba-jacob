@@ -1988,6 +1988,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "e321.jpg"
         },
+         {
+            "codigo": "n322",
+            "titulo": "Todo El Mundo Tiene Su Fabula",
+            "autor": "Humberto Jarrin B.",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "n322.jpg"
+        },
 
         
 
