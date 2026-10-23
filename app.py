@@ -1916,6 +1916,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "n313.jpg"
         },
+         {
+            "codigo": "j314",
+            "titulo": "La Liga Anti-pop",
+            "autor": "Margarita Londoño Velez",
+            "genero": "Juvenil",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "j314.jpg"
+        },
 
         
 
