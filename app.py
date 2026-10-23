@@ -2096,6 +2096,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "i333.jpg"
         },
+         {
+            "codigo": "p334",
+            "titulo": "El Niño Que Piensa:Un Modelo De Formacion De Maestros",
+            "autor": "Rebeca Puche Navarro, Dominique Colinvaux, Celia Dibar Ure",
+            "genero": "Pedagogia",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "p334.jpg"
+        },
 
         
 
