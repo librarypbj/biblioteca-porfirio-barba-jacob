@@ -2060,6 +2060,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "p329.jpg"
         },
+         {
+            "codigo": "e330",
+            "titulo": "La Tierra Cambia De Piel",
+            "autor": "Carlos Rodado Noriega & Elizabeth Grijalba De Rodado",
+            "genero": "Ensayo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "e330.jpg"
+        },
 
         
 
