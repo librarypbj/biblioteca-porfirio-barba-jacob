@@ -1952,6 +1952,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "n317.jpg"
         },
+         {
+            "codigo": "a318",
+            "titulo": "Journey To The Centre Of The Earth(Ingles)",
+            "autor": "Julio Verne",
+            "genero": "Aventuras",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "a318.jpg"
+        },
 
         
 
