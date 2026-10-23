@@ -2024,6 +2024,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "p325.jpg"
         },
+         {
+            "codigo": "d326",
+            "titulo": "Atlas De Botanica",
+            "autor": "J. M. Thomas-Domenech",
+            "genero": "Didactico",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "d326.jpg"
+        },
 
         
 
