@@ -273,7 +273,7 @@ if "libros_db" not in st.session_state:
             "codigo": "a132",
             "titulo": "Zorro",
             "autor": "Johnston McCulley",
-            "genero": "Aventura",
+            "genero": "Aventuras",
             "disponible_fisico": True,
             "archivo_interno": "",
             "imagen_portada": "a132.jpg"
@@ -1812,7 +1812,7 @@ if "libros_db" not in st.session_state:
             "codigo": "a302",
             "titulo": "La Isla Del Tesoro",
             "autor": "Robert Louis Stevenson",
-            "genero": "Aventura",
+            "genero": "Aventuras",
             "disponible_fisico": True,
             "archivo_interno": "",
             "imagen_portada": "a302.jpg"
@@ -1956,7 +1956,7 @@ if "libros_db" not in st.session_state:
             "codigo": "a318",
             "titulo": "Journey To The Centre Of The Earth(Ingles)",
             "autor": "Julio Verne",
-            "genero": "Aventura",
+            "genero": "Aventuras",
             "disponible_fisico": True,
             "archivo_interno": "",
             "imagen_portada": "a318.jpg"
@@ -2046,7 +2046,7 @@ if "libros_db" not in st.session_state:
             "codigo": "a328",
             "titulo": "La Isla Misteriosa",
             "autor": "Julio Verne",
-            "genero": "Aventura",
+            "genero": "Aventuras",
             "disponible_fisico": True,
             "archivo_interno": "",
             "imagen_portada": "a328.jpg"
