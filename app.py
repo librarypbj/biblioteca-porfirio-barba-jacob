@@ -2042,6 +2042,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "e327.jpg"
         },
+         {
+            "codigo": "a328",
+            "titulo": "La Isla Misteriosa",
+            "autor": "Julio Verne",
+            "genero": "Aventuras",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "a328.jpg"
+        },
 
         
 
