@@ -2015,6 +2015,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "f324.jpg"
         },
+         {
+            "codigo": "p325",
+            "titulo": "La Verdad Sobre Las Mentiras",
+            "autor": "Santiago Medina Serna",
+            "genero": "Politica",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "p325.jpg"
+        },
 
         
 
