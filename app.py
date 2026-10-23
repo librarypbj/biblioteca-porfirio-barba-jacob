@@ -1943,6 +1943,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "j316.jpg"
         },
+         {
+            "codigo": "n317",
+            "titulo": "Cuentos Latinoamericanos",
+            "autor": "Varios Autores",
+            "genero": "Narrativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "n317.jpg"
+        },
 
         
 
