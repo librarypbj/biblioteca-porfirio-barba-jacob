@@ -2205,13 +2205,6 @@ with st.sidebar:
     genero_seleccionado = st.selectbox("1. Elige un Género:", opciones_genero)
 
     busqueda = ""
-    if genero_seleccionado != "Selecciona un género...":
-        st.markdown("---")
-        busqueda = st.text_input(
-            "2. ¿Qué libro buscas de este género?",
-            placeholder="Escribe el título o autor...",
-            key="input_busqueda"
-        ).strip()
 
 # --- 4. CUERPO PRINCIPAL DE LA PÁGINA ---
 st.title("📚 Biblioteca Porfirio Barba Jacob")
