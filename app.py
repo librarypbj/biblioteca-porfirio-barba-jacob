@@ -2078,6 +2078,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "f331.jpg"
         },
+         {
+            "codigo": "t332",
+            "titulo": "La Casa De Bernarda Alba",
+            "autor": "Federico Garcia Lorca",
+            "genero": "Teatro",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "t332.jpg"
+        },
 
         
 
