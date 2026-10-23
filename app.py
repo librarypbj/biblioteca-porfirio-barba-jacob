@@ -1970,6 +1970,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "d319.jpg"
         },
+         {
+            "codigo": "r320",
+            "titulo": "La Colmena",
+            "autor": "Camilo Jose Cela",
+            "genero": "Realismo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "r320.jpg"
+        },
 
         
 
