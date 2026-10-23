@@ -2105,6 +2105,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "p334.jpg"
         },
+         {
+            "codigo": "d335",
+            "titulo": "Atlas Planeta Azul",
+            "autor": "Dalila Ferro Gonzales & Martha Cecilia Quintero",
+            "genero": "Didactico",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "d335.jpg"
+        },
 
         
 
