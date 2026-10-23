@@ -2006,6 +2006,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "j323.jpg"
         },
+         {
+            "codigo": "f324",
+            "titulo": "Claus Y Lucas",
+            "autor": "Agota Kristof",
+            "genero": "Ficcion",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "f324.jpg"
+        },
 
         
 
