@@ -2033,6 +2033,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "d326.jpg"
         },
+         {
+            "codigo": "e327",
+            "titulo": "Cruzando El Umbral De La Esperanza",
+            "autor": "Juan Pablo ll(Con Vittorio Messori)",
+            "genero": "Ensayo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "e327.jpg"
+        },
 
         
 
