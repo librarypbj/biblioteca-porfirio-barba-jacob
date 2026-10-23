@@ -2051,6 +2051,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "a328.jpg"
         },
+         {
+            "codigo": "p329",
+            "titulo": "Los Ssitemas Nacionales De Evaluacion En America Latina",
+            "autor": "Fabio Jurado Valencia",
+            "genero": "Pedagogia",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "p329.jpg"
+        },
 
         
 
