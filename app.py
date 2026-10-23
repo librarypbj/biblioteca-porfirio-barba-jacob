@@ -2114,6 +2114,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "d335.jpg"
         },
+         {
+            "codigo": "f336",
+            "titulo": "Gumball 3000:20 Years On The Road",
+            "autor": "Maximillion Cooper",
+            "genero": "Fotografico",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "f336.jpg"
+        },
 
         
 
