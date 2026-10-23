@@ -2087,6 +2087,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "t332.jpg"
         },
+         {
+            "codigo": "i333",
+            "titulo": "Horrible Histories: Awesome Egyptians",
+            "autor": "Terry Deary & Peter Hepplewhite",
+            "genero": "Informativo",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "i333.jpg"
+        },
 
         
 
