@@ -1934,6 +1934,15 @@ if "libros_db" not in st.session_state:
             "archivo_interno": "",
             "imagen_portada": "i315.jpg"
         },
+         {
+            "codigo": "j316",
+            "titulo": "Los Agujeros Negros",
+            "autor": "Yolanda Reyes",
+            "genero": "Juvenil",
+            "disponible_fisico": True,
+            "archivo_interno": "",
+            "imagen_portada": "j316.jpg"
+        },
 
         
 
