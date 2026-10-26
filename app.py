@@ -147,7 +147,7 @@ if "libros_db" not in st.session_state:
             "codigo": "m118",
             "titulo": "Death on the Nile",
             "autor": "Agatha Christie",
-            "genero": " Misterio",
+            "genero": "puntsMisterio",
             "disponible_fisico": True,
             "archivo_interno": "",
             "imagen_portada": "m118.jpg"
@@ -174,7 +174,7 @@ if "libros_db" not in st.session_state:
             "codigo": "m121",
             "titulo": "Cuentos de Fantasmas",
             "autor": "Varios Autores",
-            "genero": "Misterio,",
+            "genero": "Misterio",
             "disponible_fisico": True,
             "archivo_interno": "",
             "imagen_portada": "m121.jpg"
