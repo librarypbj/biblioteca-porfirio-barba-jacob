@@ -174,7 +174,7 @@ if "libros_db" not in st.session_state:
             "codigo": "m121",
             "titulo": "Cuentos de Fantasmas",
             "autor": "Varios Autores",
-            "genero": "Misterio,Literatura Gotica Clasica",
+            "genero": "Misterio,",
             "disponible_fisico": True,
             "archivo_interno": "",
             "imagen_portada": "m121.jpg"
